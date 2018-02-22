@@ -5,7 +5,6 @@ languageCode = "en-us"
 SectionPagesMenu = "main"
 pluralizelisttitles= "false"
 pygmentsUseClassic=true
-publishDir = "docs"
 
 [menu]
   [[menu.main]]
