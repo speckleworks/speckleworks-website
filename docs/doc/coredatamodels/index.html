@@ -1,0 +1,304 @@
+
+<html>
+<head>
+  <title>Essential Data Models</title>
+  <meta charSet="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="icon" type="image/png" href="https://speckle.works/img/logos/logo-xs.png">
+  <link rel="apple-touch-icon" type="image/png" href="https://speckle.works/img/logos/2xlogo-white.png">
+  <link rel="icon" sizes="144x144" href="https://speckle.works/img/logos/2xlogo-white.png">
+  
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="/css/waffle-grid.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <meta property="og:title" content="Essential Data Models">
+  <meta property="og:description" content="A quick runthrough some basic Speckle terminology.">
+  <meta property="og:image" content="https://speckle.works/img/datamodels.png">
+  <meta property="og:url" content="https://speckle.works/doc/coredatamodels/">
+
+  <meta name="twitter:site" content="@idid">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://speckle.works/img/datamodels.png" />
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96321582-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+<div class="navigation-header">
+  <div class="grid section-block m-hide main-nav-header">
+    <div class="row">
+      <div class="col col-12-of-12">
+        <nav class="sidebar-nav">
+            
+          <a class="sidebar-nav-item" href="/">  Speckle</a>   
+          <a class="sidebar-nav-item" href="/blog/">  Blog</a>     
+          <a class="sidebar-nav-item" href="/about/">  About</a>   
+          <a class="sidebar-nav-item" href="/doc/">  Docs</a>   
+          <a class="sidebar-nav-item" href="https://slacker.speckle.works/"> <i class='fa fa-slack'></i> Slack</a>   
+          <a class="sidebar-nav-item" href="https://github.com/speckleworks"> <i class='fa fa-github'></i> Github</a>  
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-button add-shadow m-and-lower" id="menubutton">
+    <img src="/img/logos/logo-xs.png" style="height: 20px;">
+  </div>
+  <div id="mobilemenu" class="grid mobile-menu m-and-lower">
+    <div class="mobile-button-close" id="menubuttonclose">
+      <i class="fa fa-close"></i>
+    </div>
+    <div class="row">
+      <div class="col col-12-of-12 center-me-wrap">
+        <nav class="sidebar-nav" style="width: 100%;">
+            
+          <a class="sidebar-nav-item" href="/">  Speckle</a>   
+          <a class="sidebar-nav-item" href="/blog/">  Blog</a>     
+          <a class="sidebar-nav-item" href="/about/">  About</a>   
+          <a class="sidebar-nav-item" href="/doc/">  Docs</a>   
+          <a class="sidebar-nav-item" href="https://slacker.speckle.works/"> <i class='fa fa-slack'></i> Slack</a>   
+          <a class="sidebar-nav-item" href="https://github.com/speckleworks"> <i class='fa fa-github'></i> Github</a>  
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div></div>
+<div class="m-hide" style="height: 42px; pointer-events: none;">
+</div>
+<div></div>
+
+  <div class="header-img" style='background: url("/img/datamodels.png") center center fixed  no-repeat'></div>
+  
+  <div class="article-title card-5">
+    <h1>
+      <strong>Essential Data Models</strong>
+    </h1>
+    <subtitle>
+      <p>
+        <em>by <a href="https://twitter.com/idid" style='border: none; font-size: 16px;'>Dimitrie Stefanescu <i class='fa fa-twitter' style='color:#86AFFB'></i></a></em>
+        <br>
+        <small>4 min read. Posted on Tue, Oct 3, 2017</small>
+      </p>
+    </subtitle>
+  </div>
+  <div class="grid section-block article-block">
+    <div class="row">
+      
+      <div class="col push-2-of-12 col-8-of-12 m-un-push col-m-4-of-4 article">
+        
+
+<p>The following goes hand in hand with the Schema section in the <a href="https://speckleworks.github.io/SpeckleOpenApi/#schemas">Speckle Api Docs</a>.</p>
+
+<h1 id="data-models">Data Models</h1>
+
+<p>Speckle operates with two core data models, Objects and Streams. Alongside, we have UserAppClients (or Clients) and Users, but we will not cover them in this document.</p>
+
+<h1 id="streams">Streams</h1>
+
+<h2 id="basics">Basics</h2>
+
+<p>Streams (DataStreams) are just a collection of objects. A stream has three important fields:</p>
+
+<ul>
+<li>the streamId string</li>
+<li>the objects array</li>
+<li>the layers array</li>
+</ul>
+
+<p>The <strong>streamId</strong> is a short, url friendly, id that the stream is known by. It is also the name of the websocket &ldquo;room&rdquo; where all announcements about the state/mutations of this stream happen.</p>
+
+<p>The <strong>objects array</strong> is an ordered list of SpeckleObjects _ids (see below for a description of objects in speckle). It may contain duplicates and traces of nuts.</p>
+
+<p>The optional layer array holds in a list of <a href="https://speckleworks.github.io/SpeckleOpenApi/#specklelayer">_SpeckleLayer_s</a>.
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #75715e">// Voila a layer:</span>
+<span style="color: #f8f8f2">{</span>
+  <span style="color: #e6db74">&quot;name&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;string&quot;</span><span style="color: #f8f8f2">,</span>
+  <span style="color: #e6db74">&quot;guid&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;string&quot;</span><span style="color: #f8f8f2">,</span>
+  <span style="color: #e6db74">&quot;orderIndex&quot;</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">,</span>
+  <span style="color: #e6db74">&quot;startIndex&quot;</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">,</span>
+  <span style="color: #e6db74">&quot;objectCount&quot;</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">,</span>
+  <span style="color: #e6db74">&quot;topology&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;0;0;0;0-2 0;0;0;1-2&quot;</span><span style="color: #f8f8f2">,</span>
+  <span style="color: #e6db74">&quot;properties&quot;</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+    <span style="color: #75715e">//...</span>
+  <span style="color: #f8f8f2">}</span>
+<span style="color: #f8f8f2">}</span> 
+</pre></div>
+</p>
+
+<p>A layer&rsquo;s startIndex and objectCount determine, against the stream&rsquo;s object list, which object is on what layer.</p>
+
+<h2 id="inheritance-versioning">Inheritance &amp; Versioning</h2>
+
+<p>Furthermore, streams may have a parent and an array of children. These enable two versioning models, for example:</p>
+
+<ul>
+<li>A Sender Client (A) can save its current state as an option (A1). Subsequent updates will continue to be logged at A, and not against his children (A1, A2, &hellip; An).</li>
+<li>A Sender Client (A) can clone himself into (A1) and log all subsequent updates to the newly created stream (A1).</li>
+</ul>
+
+<p>In both scenarios, Stream A will have A1 in his children array, and A1 will have A as his parent.</p>
+
+<p>The corresponding API method is <a href="https://speckleworks.github.io/SpeckleOpenApi/#streamclone">StreamClone</a>.</p>
+
+<h1 id="objects">Objects</h1>
+
+<p>Speckle objects all inherit from a base model, the SpeckleObject, which enforces a few default properties, namely:</p>
+
+<ul>
+<li>Type</li>
+<li>Hash</li>
+<li>ApplicationId</li>
+<li>Properties
+[&hellip;]</li>
+</ul>
+
+<h2 id="object-type">Object Type</h2>
+
+<p>The type field is the discriminator. It determines which subtype the specific instance is part of. It is enforced on the schema model on the server side, and currently it has to be part of the following enum:</p>
+
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #a6e22e">type</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+    <span style="color: #a6e22e">type</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">String,</span>
+    <span style="color: #66d9ef">enum</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">[</span> <span style="color: #e6db74">&#39;Null&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Boolean&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Number&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;String&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Interval&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Interval2d&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Point&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Vector&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Plane&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Line&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Rectangle&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Circle&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Box&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Polyline&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Curve&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Mesh&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Brep&#39;</span><span style="color: #f8f8f2">,</span> <span style="color: #e6db74">&#39;Annotation&#39;</span> <span style="color: #f8f8f2">],</span>
+    <span style="color: #66d9ef">default</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&#39;Null&#39;</span>
+  <span style="color: #f8f8f2">}</span>
+</pre></div>
+
+
+<h2 id="object-hash">Object Hash</h2>
+
+<p>The hash is a unique value, generated by the application specific converter, that is unique to that object. This hash is extremely important to be correctly generated, as objects with the same hash will not be saved twice in the database.</p>
+
+<p>There is also a secondary hash, called GeometryHash, which describes just the geometry values of that specific object, without its properties field, which is described below.</p>
+
+<h2 id="object-properties">Object Properties</h2>
+
+<p>The properties field of an object is essentially implemented as a key value store of type <code>Dictionary&lt;string, object&gt;</code>, where you define the keys as well as their values.</p>
+
+<p>Anything can go in there, essentially describing your own data format on the go. Here&rsquo;s a super small example of a truncated SpeckleBrep:
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #e6db74">&quot;speckleObject&quot;</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+    <span style="color: #e6db74">&quot;_id&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;59c0e81f0385f87cf2362cfc&quot;</span><span style="color: #f8f8f2">,</span>
+    <span style="color: #e6db74">&quot;properties&quot;</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+      <span style="color: #e6db74">&quot;Area&quot;</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">9424.77796076938</span><span style="color: #f8f8f2">,</span>
+      <span style="color: #e6db74">&quot;Volume&quot;</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">141371.66999307554</span><span style="color: #f8f8f2">,</span>
+      <span style="color: #e6db74">&quot;FacadeLayer&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;SW01-32&quot;</span><span style="color: #f8f8f2">,</span>
+      <span style="color: #e6db74">&quot;Planarity&quot;</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">0.32</span><span style="color: #f8f8f2">,</span>
+      <span style="color: #e6db74">&quot;Costing&quot;</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+        <span style="color: #e6db74">&quot;base&quot;</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">150</span><span style="color: #f8f8f2">,</span>
+        <span style="color: #e6db74">&quot;unit&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;$/m2&quot;</span>
+      <span style="color: #f8f8f2">},</span>
+      <span style="color: #e6db74">&quot;Centroid&quot;</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+        <span style="color: #e6db74">&quot;type&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;Point&quot;</span><span style="color: #f8f8f2">,</span>
+        <span style="color: #e6db74">&quot;value&quot;</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">[</span>
+          <span style="color: #ae81ff">3.088012320065082</span><span style="color: #a6e22e">e</span><span style="color: #f92672">-</span><span style="color: #ae81ff">15</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #f92672">-</span><span style="color: #ae81ff">7.645600799106988</span><span style="color: #a6e22e">e</span><span style="color: #f92672">-</span><span style="color: #ae81ff">15</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #ae81ff">24.999999999999993</span>
+        <span style="color: #f8f8f2">],</span>
+        <span style="color: #e6db74">&quot;hash&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;1849b3754e13fba0095274e51f779ba3&quot;</span><span style="color: #f8f8f2">,</span>
+        <span style="color: #e6db74">&quot;geometryHash&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;Point.9153ad925fa1&quot;</span><span style="color: #f8f8f2">,</span>
+        <span style="color: #e6db74">&quot;properties&quot;</span><span style="color: #f92672">:</span> <span style="color: #f8f8f2">{</span>
+          <span style="color: #e6db74">&quot;nestedValue&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;ABC&quot;</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #e6db74">&quot;otherNestedValue&quot;</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">25.43</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #75715e">// ...</span>
+        <span style="color: #f8f8f2">}</span>
+      <span style="color: #f8f8f2">},</span>
+      <span style="color: #75715e">// ...</span>
+    <span style="color: #f8f8f2">},</span>
+    <span style="color: #e6db74">&quot;hash&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;3d67fd7575ada47d73eb649113724399&quot;</span><span style="color: #f8f8f2">,</span>
+    <span style="color: #e6db74">&quot;type&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;Brep&quot;</span>
+<span style="color: #f8f8f2">}</span>
+</pre></div>
+</p>
+
+<h4 id="how-do-you-create-all-these-amazing-properties-i-hear-you-asking-well-wait-no-longer-read-on-here-doc-userdatautils">How do you create all these amazing properties, I hear you asking? Well wait no longer, <a href="/doc/userdatautils">read on here</a>!</h4>
+
+<p>Some things to note:</p>
+
+<ul>
+<li>You can have SpeckleObjects inside SpeckleObjects: the Centroid is actually a SpecklePoint.</li>
+<li>Nested properties: you are not restricted to a flat structure.</li>
+<li>You can query the API after these properties, so you can, with no effort, get things like <code>type=Polyline &amp; Area&gt;20 &amp; Area &lt; 100 &amp; Level = 4.02 &amp;sort = Area.</code></li>
+</ul>
+
+<p>Here&rsquo;s a live query example:</p>
+
+<p><a href="https://s003.speckle.works/api/streams/S1GUSjojW/objects?type=Circle&amp;radius%3E10&amp;radius%3C14&amp;fields=type,radius,normal.value">https://s003.speckle.works/api/streams/S1GUSjojW/objects?type=Circle&amp;radius&gt;10&amp;radius&lt;14&amp;fields=type,radius,normal.value</a></p>
+
+<p>Notice the everything after the <code>?</code> sign: that&rsquo;s a query:</p>
+
+<ul>
+<li>Object type should be <em>Circle</em>.</li>
+<li>Radius should be &gt; 10 and &lt; 14</li>
+<li>Return only the <em>type, radius</em> and <em>normal.value</em> fields</li>
+</ul>
+
+<p>More about queries (and how they&rsquo;re useful) in a different tutorial. That should wrap it up for this one.</p>
+
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="grid section-block article-block">
+    <div class="row">
+      <div class="col col-12-of-12 col-m-4-of-4">
+        <h5>Having trouble? Found a bug? Have a question? Join the discussion below our join our <a href="https://slacker.speckle.works">slack channel.</a></h5> <div id='discourse-comments'></div>
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://discourse.speckle.works/',
+                     discourseEmbedUrl: "https://speckle.works/doc/coredatamodels/"
+                   };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
+      </div>
+    </div>
+  </div>
+   <div class="footer blue">
+  <div class="grid">
+  <br>
+  <br>
+  <br>
+    <div class="row">
+      <div class='col col-9-of-12 col-m-4-of-4'>
+
+      <p class="xxsubheading">
+        Get in touch on <a href="https://slacker.speckle.works/" style='border:none'><i class='fa fa-slack'></i> Slack</a>!
+        <hr>
+      </p>
+      
+      
+      <p class="paragraph">
+          This project has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No 642877.
+      </p>
+      <br>
+      <br>
+      <br>
+      <p class="paragraph"><small>© 2015 - 2018 <a href="http://dimitrie.org">Dimitrie Stefanescu</a>, <a href="https://www.ucl.ac.uk/bartlett/" class="href">UCL The Bartlett</a>, <a href="http://innochain.net/">InnoChain</a> & Project Contributors. <a href='http://twitter.com/idid'>i did</a> this.</small></p> 
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="col col-3-of-12 text-right">
+        <a class="logo-img" href="https://speckle.works"><img src="/img/logos/2xlogo-white.png" style="width: 75px;"> </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script async defer src="/js/scripts.js"></script>
+</body>
+</html>

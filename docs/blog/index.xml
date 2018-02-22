@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog-rss on Speckle: Open Data Rich Design</title>
+    <link>https://speckle.works/blog/index.xml</link>
+    <description>Recent content in Blog-rss on Speckle: Open Data Rich Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 13:08:41 +0100</lastBuildDate>
+    <atom:link href="https://speckle.works/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Onwards and Upwards: Speckle &amp; 2018</title>
+      <link>https://speckle.works/blog/onwardsandupwards/</link>
+      <pubDate>Mon, 01 Jan 2018 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/blog/onwardsandupwards/</guid>
+      <description>
+
+&lt;h1 id=&#34;going-forward&#34;&gt;Going Forward!&lt;/h1&gt;
+
+&lt;p&gt;On the 30th of November 2017, there was a &amp;ldquo;Speckle Meeting&amp;rdquo; at The Bartlett, with 19 people from all around the AEC industry (&amp;amp; world) joining to discuss the future of design data communication.&lt;/p&gt;
+
+&lt;p&gt;I will not focus on the technical parts of that meeting (it was a six hours long meeting), but I would outline the core principles &amp;amp; actions that were agreed upon below:
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;speckle-will-become-real&#34;&gt;Speckle Will Become Real&lt;/h2&gt;
+
+&lt;p&gt;Speckle&amp;rsquo;s a lot of work - more than I can handle alone. In order to match the demand, I&amp;rsquo;ve been rooting for Speckle to become a legal entity of sorts that will be able to grow and develop the core framework and associated plugins and interfaces.&lt;/p&gt;
+
+&lt;p&gt;This will happen. We&amp;rsquo;re looking for ways to assemble this adventure, so if you&amp;rsquo;ve got any leads, do join the discussion on slack! We&amp;rsquo;re not yet &amp;ldquo;hiring&amp;rdquo;, but watch this space.
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;speckle-will-stay-open-source&#34;&gt;Speckle Will Stay Open Source&lt;/h2&gt;
+
+&lt;p&gt;You can&amp;rsquo;t develop a relevant design communication framework in the isolation that a closed model would entail. Monetisation will never be a priority, but a community driven by-product.&lt;/p&gt;
+
+&lt;p&gt;Whatever shape the legal incorporation will embody, Speckle will stay open source, and liberally so - we&amp;rsquo;re not going to stray from the MIT license.
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;speckle-will-be-welcoming&#34;&gt;Speckle Will Be Welcoming&lt;/h2&gt;
+
+&lt;p&gt;Speckle will aim not impose nor exclude other ways of structuring information, but it will welcome and try to enable new ways of communication in design.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, Speckle will be welcoming in its governance structure, standards, community contributions and as well users of all trades and skills.
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;join-the-conversation&#34;&gt;Join The Conversation!&lt;/h2&gt;
+
+&lt;p&gt;Mixing openess and freedom while ensuring a sustainable future that can create the correct environment in which our ambitions can be delivered is going to be quite the challenge.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;re welcome to join the &lt;a href=&#34;https://slacker.speckle.works&#34;&gt;slack channel&lt;/a&gt; and tell us what you think &amp;amp; discuss how you can help out!&lt;/p&gt;
+
+&lt;p&gt;Happy 2018!
+&lt;h1&gt;🎉 🌲 🎉&lt;/h1&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speckle&#39;s 2017 Roundup</title>
+      <link>https://speckle.works/blog/2017roundup/</link>
+      <pubDate>Fri, 29 Dec 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/blog/2017roundup/</guid>
+      <description>
+
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;The domain name for Speckle.Works was registered around March 2016. This means the end of 2017 catches us approximatively 9 months into speckle&amp;rsquo;s life. As some of you may know, this is not &lt;em&gt;really&lt;/em&gt; accurate - this incarnation of speckle is built on lessons learned in the three previous ones: &lt;a href=&#34;http://speckle.xyz&#34;&gt;speckle.xyz&lt;/a&gt;, &lt;a href=&#34;http://beta.speckle.xyz&#34;&gt;beta speckle&lt;/a&gt; and &lt;a href=&#34;http://streams.speckle.xyz&#34;&gt;speckle streams&lt;/a&gt;, with the first going back to late 2015.&lt;/p&gt;
+
+&lt;p&gt;Below is a roundup of the last few months. This is not, by all means, an exhaustive list! There&amp;rsquo;s many rumblings and churns, most of it geared towards a better user space and some technical debt elimination (coupled with, obviously, introduction of new technical debt).&lt;/p&gt;
+
+&lt;h2 id=&#34;rhino-plugin&#34;&gt;Rhino Plugin&lt;/h2&gt;
+
+&lt;p&gt;There has been a lot of work going towards the Rhino Plugin (5 &amp;amp; 6), which now needs some final polish before release. Code is shared, and in theory it should be workable on Rhino for Mac with minimal changes.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, since the UI is a completely separate layer based on VueJS (yes, in .NET! running in a browser!), bits and pieces could be used to jumpstart development for other CAD platforms - kudos to Luis for having the courage to embark us on this road!&lt;/p&gt;
+
+&lt;p&gt;So far, it looks good and it feels good: we hope this will entice people in the future to share and parcel their data. Some of us don&amp;rsquo;t scale well on Grasshoppers.&lt;/p&gt;
+
+&lt;h2 id=&#34;code-consolidation&#34;&gt;Code Consolidation&lt;/h2&gt;
+
+&lt;p&gt;A big and invisible update: The .NET Rhino and Grasshopper plugin have been consolidated into one monorepo with the help of &lt;a href=&#34;https://twitter.com/pearswj&#34;&gt;@Will Pearson&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/luisfraguada&#34;&gt;@Luis Fraguada&lt;/a&gt;. They have also set up a CI build system which makes development much more &lt;em&gt;consistent&lt;/em&gt; and will hopefully lead to a proper release cycle and plugin packaging.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, as a guarantee to Speckle&amp;rsquo;s openness, all code repositories have moved under a &lt;a href=&#34;https://github.com/speckleworks&#34;&gt;github organisation&lt;/a&gt; that is open to membership if you have something to contribute. Just ask!&lt;/p&gt;
+
+&lt;h2 id=&#34;building-information-modeling&#34;&gt;(Building) Information Modeling&lt;/h2&gt;
+
+&lt;p&gt;In response to industry feedback (sounds so formal - let&amp;rsquo;s call them solid chats with peeps doing &lt;em&gt;real stuff&lt;/em&gt;!), Speckle Core has gotten a really sweet update to support Abstract Objects of any type and nature (within reason),  thus paving the way for a truly schema agnostic future that does not compromise on transparency or flexibility. You can &lt;a href=&#34;https://speckle.works/blog/schemasandstandards&#34;&gt;read more about it here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, &lt;a href=&#34;https://twitter.com/paul_dotnet&#34;&gt;Paul&lt;/a&gt; is looking into bringing the data richness agenda into main stream Rhino, to lower the bars for efficient intelligent design data communication. Expect news soon, right @paul_dotnet? No pressure.&lt;/p&gt;
+
+&lt;h2 id=&#34;speckle-core&#34;&gt;Speckle Core&lt;/h2&gt;
+
+&lt;p&gt;Speckle Core (.NET) has steadily improved - and will most probably continue to do so. It&amp;rsquo;s now more modular and accessible, and it&amp;rsquo;s a good low level foundation for building plugins, to the extent you can do them straight away in &lt;a href=&#34;https://speckle.works/doc/specklehacks/&#34;&gt;c# scripting nodes in grasshopper&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;One thing that didn&amp;rsquo;t make it on this list: &lt;em&gt;proper  namespacing&lt;/em&gt;. But you know, naming things is hard.&lt;/p&gt;
+
+&lt;h2 id=&#34;blender&#34;&gt;Blender!&lt;/h2&gt;
+
+&lt;p&gt;Just before holidays, we&amp;rsquo;ve seen Blender added to the future of Speckle: &lt;a href=&#34;https://twitter.com/spilans&#34;&gt;Tom Svilans&lt;/a&gt; has published an initial sketch of a &lt;a href=&#34;https://github.com/tsvilans/bpy_speckle&#34;&gt;Speckle client&lt;/a&gt;! I have no idea how it works, having never taken Blender beyond sub-d-ing a cube around, but this is definitively exciting!&lt;/p&gt;
+
+&lt;h2 id=&#34;community-120-people&#34;&gt;Community: 120+ people!&lt;/h2&gt;
+
+&lt;p&gt;The Slack group has grown from its meager beginnings when Luis set it up for me and him to coordinate better to a behemoth of &lt;strong&gt;120+ people&lt;/strong&gt;. Thank the fortunes not everyone&amp;rsquo;s talking at the same time!&lt;/p&gt;
+
+&lt;p&gt;Keep on ignoring the warnings that we need to start paying - we&amp;rsquo;ll get there, and we will hopefully find a way to circumvent and keep on spamming each other with amazing emojis.&lt;/p&gt;
+
+&lt;h2 id=&#34;speckle-003&#34;&gt;Speckle 003&lt;/h2&gt;
+
+&lt;p&gt;Speckle also got its first (now outdated) version release - &lt;a href=&#34;https://speckle.works/blog/specklerelease3/&#34;&gt;003&lt;/a&gt;, that  introduced many goodies, like a more powerful API, queries, diffing, a new stream viewer ui with sliders, etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;going-forward&#34;&gt;Going forward&lt;/h2&gt;
+
+&lt;p&gt;What has been proven so far is that it&amp;rsquo;s possible: we can have an open source design communication platform that is owned by its users. It&amp;rsquo;s a lot of work!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Schemas, Standards and Speckle</title>
+      <link>https://speckle.works/blog/schemasandstandards/</link>
+      <pubDate>Wed, 27 Dec 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/blog/schemasandstandards/</guid>
+      <description>
+
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;As there is no such thing in AEC as &amp;ldquo;one model&amp;rdquo;, equally there is no &amp;ldquo;one standard&amp;rdquo;&lt;/strong&gt;: Speckle delivers your own data in your own way to other design stakeholders in a managed &amp;amp; curated way.&lt;/p&gt;
+
+&lt;p&gt;How? Speckle allows for objects of arbitrary classes to be sent in between clients. This happens with the help of the recently introduced &lt;code&gt;SpeckleAbstract&lt;/code&gt; type and some extra functionalities embedded in the Speckle Core Converter class that allow for serialisation and deserialisation of standard .NET classes.&lt;/p&gt;
+
+&lt;h1 id=&#34;encoding-a-simple-net-class&#34;&gt;Encoding a simple .NET class&lt;/h1&gt;
+
+&lt;p&gt;Take this example class of rather normal POCO:
+&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;Beam&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color: #f8f8f2&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color: #66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;weight&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;get;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;set;&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;42&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;;&lt;/span&gt;
+  &lt;span style=&#34;color: #f8f8f2&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;PolyCurve&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;section;&lt;/span&gt;
+  &lt;span style=&#34;color: #f8f8f2&#34;&gt;private&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;string&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;secretId;&lt;/span&gt;
+  &lt;span style=&#34;color: #f8f8f2&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color: #a6e22e&#34;&gt;Beam&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;()&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt; 
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
+
+&lt;span style=&#34;color: #75715e&#34;&gt;// You can now do this:&lt;/span&gt;
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;mySpeckleBeam&lt;/span&gt; &lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;SpeckleCore.Converter.ToAbstract(&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;Beam()&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;);&lt;/span&gt; 
+
+&lt;span style=&#34;color: #75715e&#34;&gt;// Which results in:&lt;/span&gt;
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;type&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Abstract&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt;
+  &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;_type&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;Beam&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt;
+  &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;_assembly&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;AssemblyName, ...&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt;
+  &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;properties&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;
+    &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;weight&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #ae81ff&#34;&gt;42&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt;
+    &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;section&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;{&lt;/span&gt;
+      &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;type&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;PolyCurve&amp;quot;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;,&lt;/span&gt;
+      &lt;span style=&#34;color: #75715e&#34;&gt;//...&lt;/span&gt;
+    &lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
+  &lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;decoding-a-simple-net-class&#34;&gt;Decoding a simple .NET class&lt;/h1&gt;
+
+&lt;p&gt;On the receiving end, there are two possibilities. &lt;strong&gt;If the context in which the object is received has access to the assembly that this class originates from&lt;/strong&gt;, the object will get serialized to its native type.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If there is no original assembly present&lt;/strong&gt;, the object will remain as a transparent &lt;code&gt;SpeckleAbstract&lt;/code&gt; object from which you can extract properties and so and so forth.&lt;/p&gt;
+
+&lt;p&gt;You can even mix and mash classes of different types and from different assemblies, the same ground rules apply, so you can essentially combine any schema you may have together. Furthermore, object references are supported, so essentially a SpeckleAbstract is its own little database.&lt;/p&gt;
+
+&lt;h1 id=&#34;conclusions-schema-agnosticism-the-way-forward&#34;&gt;Conclusions: Schema Agnosticism &amp;amp; The Way Forward&lt;/h1&gt;
+
+&lt;p&gt;Existing AEC standards for data exchange are either fragmented, or too massive and complex to wield. Speckle takes a different approach: instead of enforcing a strict format, it aims to provide a framework in which data can be articulated meaningfully and shared transparently at various levels of abstraction.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In short, this approach opens up the possibility for actors involved in the design process to freely create and structure their own native data models whilst maintaining fidelity and privacy, without compromising on transparency!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speckle @ AEC Symposium in New York</title>
+      <link>https://speckle.works/blog/aecsymposium/</link>
+      <pubDate>Fri, 06 Oct 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/blog/aecsymposium/</guid>
+      <description>
+
+&lt;p&gt;In case you missed it, I&amp;rsquo;m going to be giving a Speckle workshop at the CoreTT AEC Symposium! I&amp;rsquo;ll be there during the following hackaton too.&lt;/p&gt;
+
+&lt;p&gt;Things that I will try and cover:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bootstrapping a simple &lt;a href=&#34;https://speckle.works/doc/deployaserver&#34;&gt;Speckle Server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://speckle.works/doc/senderreceiver&#34;&gt;Speckle Grasshopper Components&lt;/a&gt; + &lt;a href=&#34;https://speckle.works/doc/userdatautils&#34;&gt;Custom Properties&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The .NET Speckle Api (&lt;a href=&#34;https://speckle.works/doc/specklehacks&#34;&gt;SpeckleCore&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Querying The Server&lt;/li&gt;
+&lt;li&gt;Web Frontend Apps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;div-class-text-center-register-here-http-core-thorntontomasetti-com-event-2017-aec-technology-symposium-and-hackathon-div&#34;&gt;&lt;div class=&#39;text-center&#39;&gt;&lt;a href=&#34;http://core.thorntontomasetti.com/event/2017-aec-technology-symposium-and-hackathon/&#34;&gt;Register here&lt;/a&gt;!&lt;/div&gt;&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speckle 0.0.3 Released.</title>
+      <link>https://speckle.works/blog/specklerelease3/</link>
+      <pubDate>Sun, 01 Oct 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/blog/specklerelease3/</guid>
+      <description>
+
+&lt;p&gt;After some hacking, Speckle is ready to roll out v.0.0.3. Here&amp;rsquo;s what&amp;rsquo;s new:&lt;/p&gt;
+
+&lt;h1 id=&#34;api-docs-https-speckleworks-github-io-speckleopenapi&#34;&gt;&lt;a href=&#34;https://speckleworks.github.io/SpeckleOpenApi/&#34;&gt;Api Docs&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Improved and much expanded. A host of new methods have been added in the hope that they will make future plug-in &amp;amp; client development easier.
+Check them out &lt;a href=&#34;https://speckleworks.github.io/SpeckleOpenApi/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;server-side&#34;&gt;Server side:&lt;/h1&gt;
+
+&lt;h2 id=&#34;queries&#34;&gt;Queries&lt;/h2&gt;
+
+&lt;p&gt;The server now supports querying on stream objects as well as objects. Routes that support queries:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://speckleworks.github.io/SpeckleOpenApi/#getobjects&#34;&gt;Stream objects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speckleworks.github.io/SpeckleOpenApi/#getlayerobjects&#34;&gt;Stream Layer objects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speckleworks.github.io/SpeckleOpenApi/#objectget&#34;&gt;Object Get&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://speckleworks.github.io/SpeckleOpenApi/#objectgetbulk&#34;&gt;Objects Bulk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;diffing-cloning&#34;&gt;Diffing &amp;amp; Cloning&lt;/h2&gt;
+
+&lt;p&gt;You can now quickly do a &amp;lsquo;diff&amp;rsquo; between two streams, as well as branch streams off each other.&lt;/p&gt;
+
+&lt;h1 id=&#34;grasshopper&#34;&gt;Grasshopper:&lt;/h1&gt;
+
+&lt;p&gt;Some new components to help out with the work-flow and general hacking, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My Accounts - lists your speckle accounts&lt;/li&gt;
+&lt;li&gt;My Streams - lists your speckle streams for an account&lt;/li&gt;
+&lt;li&gt;Serialise / Deserialise objects (test the conversion to speckle and back)&lt;/li&gt;
+&lt;li&gt;Expand Object - uses reflection to output all the values in an object.&lt;/li&gt;
+&lt;li&gt;Stream Controller - used in combination with the Speckle Sliders Viewer for magic:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://speckle.works/img/speckle-pointcontrol.gif&#34; alt=&#34;sliders&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;code&#34;&gt;Code:&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Speckle Server&lt;/strong&gt;: &lt;a href=&#34;https://github.com/speckleworks/SpeckleServer/releases&#34;&gt;https://github.com/speckleworks/SpeckleServer/releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speckle Grasshopper&lt;/strong&gt;: &lt;a href=&#34;https://github.com/speckleworks/SpeckleGrasshopper/releases/tag/v0.0.3-hotfix&#34;&gt;https://github.com/speckleworks/SpeckleGrasshopper/releases/tag/v0.0.3-hotfix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speckle Core&lt;/strong&gt;: &lt;a href=&#34;https://github.com/speckleworks/SpeckleCore/releases/tag/v.0.0.3&#34;&gt;https://github.com/speckleworks/SpeckleCore/releases/tag/v.0.0.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speckle Viewer&lt;/strong&gt;: &lt;a href=&#34;https://github.com/speckleworks/SpeckleViewer/releases/tag/v.0.0.3&#34;&gt;https://github.com/speckleworks/SpeckleViewer/releases/tag/v.0.0.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NEW&lt;/strong&gt; Speckle Sliders Viewer: &lt;a href=&#34;https://github.com/didimitrie/SpeckleSlidersViewer/releases/tag/0.0.3&#34;&gt;https://github.com/didimitrie/SpeckleSlidersViewer/releases/tag/0.0.3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why is Speckle Open?</title>
+      <link>https://speckle.works/blog/federated/</link>
+      <pubDate>Sat, 30 Sep 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/blog/federated/</guid>
+      <description>
+
+&lt;p&gt;Design data communication around complex projects is too big a issue to be handled in a centralized fashion. Furthermore, stakeholders have their own, project specific requirements when it comes to guaranteeing project data safety and all the issues around non-disclosure agreements - it&amp;rsquo;s sometimes a schizophrenic world, but it&amp;rsquo;s what we have to deal with.&lt;/p&gt;
+
+&lt;p&gt;Speckle is released under the &lt;a href=&#34;https://en.wikipedia.org/wiki/MIT_License&#34;&gt;MIT License&lt;/a&gt; - in case you&amp;rsquo;re wondering, it&amp;rsquo;s one of the most permissive licenses out there - for this specific reason: anyone is free to do take &lt;strong&gt;Speckle&lt;/strong&gt; and deploy it as they see fit:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;internally&lt;/strong&gt;: &lt;em&gt;speckle.company.intranet&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;on a &lt;strong&gt;per-project&lt;/strong&gt; basis: &lt;em&gt;project-x023.company.com&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;at a &lt;strong&gt;company level&lt;/strong&gt;: &lt;em&gt;speckle.company.com&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;as a &lt;strong&gt;SaaS&lt;/strong&gt;: &lt;em&gt;super-aec-data.com&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So if you&amp;rsquo;re a small office with a spare computer, you&amp;rsquo;re good to go. If you&amp;rsquo;re ready to go next level, rent a £20/month virtual machine and unleash the fun of sharing design data around.&lt;/p&gt;
+
+&lt;p&gt;Most importantly, we believe that it is good to dogfood your own principles: &lt;strong&gt;Speckle&lt;/strong&gt; aims to enable a transparent and open design process, so why not apply that at a licensing level? Paraphrasing Linus Torvalds,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can trust Speckle because you actually don&amp;rsquo;t need to.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This leads to a different landscape where information is not centralised in files or service providers. Project information can be spread organically around stakeholders and &lt;strong&gt;Speckle&lt;/strong&gt; deployments and selectively opened up based on needs arising from collaboration models, thus opening up new avenues for looking at the &lt;em&gt;social and information architecture&lt;/em&gt; of collaboration in complex - or simple - design projects.&lt;/p&gt;
+
+&lt;h3 id=&#34;thoughts-or-comments-join-us-on-slack-https-slacker-speckle-works&#34;&gt;Thoughts or comments? Join us on &lt;a href=&#34;https://slacker.speckle.works&#34;&gt;#Slack&lt;/a&gt;!&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
