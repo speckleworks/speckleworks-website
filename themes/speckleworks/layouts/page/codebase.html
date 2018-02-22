@@ -1,0 +1,30 @@
+{{ partial "header-single.html" . }}
+{{ partial "page-header.html" .}}
+<div class="grid section-block article-block">
+  <div class="row">
+  {{ if (not (isset .Params "headerimg")) | or (eq .Params.headerimg "") }}
+      {{else}}
+        <div class="col col-12-of-12 header-img">
+          <img src="/{{ .Params.headerimg }}" alt="">
+        </div>
+      {{end}}
+    <div class="col col-12-of-12">
+      <!-- <h2 class="subheadingxxx"><a href=" {{ .Site.BaseURL }} ">home</a> / {{ lower .Title }}</h2> -->
+      <h1>{{ .Title }} </h1>
+    </div>
+    <div class="col col-12-of-12 col-m-4-of-4 article">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ if eq .Params.comments "true" }}
+<div class="grid section-block article-block">
+  <div class="row">
+  <div class="col col-12-of-12 col-m-4-of-4">
+    <h1>Having trouble? Found a bug? Have a question? Join the discussion below our join our <a href="https://speckle-works.slack.com/shared_invite/MTY0ODQ3Njc2MTUxLTE0OTEzMDUzNjItOGYyMmU3ODRkOA">slack channel.</a></h1>
+    {{ partial "discourse.html" . }}
+  </div>
+  </div>
+</div>
+{{ end }}
+{{ partial "footer.html" . }}

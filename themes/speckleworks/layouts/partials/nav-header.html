@@ -1,0 +1,28 @@
+<div class="navigation-header">
+  <div class="grid section-block m-hide main-nav-header">
+    <div class="row">
+      <div class="col col-12-of-12">
+        <nav class="sidebar-nav">
+          {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if ne .Name "Doc" }}
+          <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"> {{ .Pre }} {{ .Name }}</a> {{ end }} {{ end }}
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-button add-shadow m-and-lower" id="menubutton">
+    <img src="/img/logos/logo-xs.png" style="height: 20px;">
+  </div>
+  <div id="mobilemenu" class="grid mobile-menu m-and-lower">
+    <div class="mobile-button-close" id="menubuttonclose">
+      <i class="fa fa-close"></i>
+    </div>
+    <div class="row">
+      <div class="col col-12-of-12 center-me-wrap">
+        <nav class="sidebar-nav" style="width: 100%;">
+          {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if ne .Name "Doc" }}
+          <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"> {{ .Pre }} {{ .Name }}</a> {{ end }} {{ end }}
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

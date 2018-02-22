@@ -1,0 +1,48 @@
+{{ partial "header-single.html" . }}
+<div></div>
+{{ partial "page-header.html" .}}
+<div></div>
+{{ if (not (isset .Params "headerimg")) | or (eq .Params.headerimg "") }}
+{{else}}
+  <div class="header-img" style='background: url("/{{ .Params.headerimg }}") center center fixed  no-repeat'></div>
+  {{end}}
+  <div class="article-title card-5">
+    <h1>
+      <strong>{{ .Title }}</strong>
+    </h1>
+    <subtitle>
+      <p><!-- {{ .Params.description }} -->
+        <em>by <a href="https://twitter.com/{{.Params.twitter}}" style='border: none; font-size: 16px;'>{{ .Params.author }} <i class='fa fa-twitter' style='color:#86AFFB'></i></a></em>
+        <br>
+        <small>{{ .ReadingTime }} min read. Posted on {{ .Date.Format "Mon, Jan 2, 2006" }}</small>
+      </p>
+    </subtitle>
+  </div>
+  <div class="grid section-block article-block">
+    <div class="row">
+      {{ if eq .Params.showtoc "true" }}
+      <div class="col col-3-of-12 col-m-4-of-4 m-hide" >
+          <div id='toc'>
+          <h5>Contents</h5>
+          {{ .TableOfContents }}
+          </div>
+      </div>
+      <div class="col col-9-of-12 col-m-4-of-4 article">
+        {{ .Content }}
+      </div>
+      {{ else }}
+      <div class="col push-2-of-12 col-8-of-12 m-un-push col-m-4-of-4 article">
+        {{ .Content }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ if eq .Params.comments "true" }}
+  <div class="grid section-block article-block">
+    <div class="row">
+      <div class="col col-12-of-12 col-m-4-of-4">
+        <h5>Having trouble? Found a bug? Have a question? Join the discussion below our join our <a href="https://slacker.speckle.works">slack channel.</a></h5> {{ partial "discourse.html" . }}
+      </div>
+    </div>
+  </div>
+  {{ end }} {{ partial "footer.html" . }}

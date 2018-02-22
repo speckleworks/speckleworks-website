@@ -1,0 +1,11 @@
+{{ partial "header-single.html" . }}
+{{ partial "page-header.html" .}}
+<div class="grid section-block article-block">
+  <div class="row">
+    <div class="col col-12-of-12 col-m-4-of-4 article">
+      <h1 class="heading">{{ .Title }}</h1>
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ partial "footer.html" . }}
