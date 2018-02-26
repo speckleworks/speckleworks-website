@@ -5,7 +5,6 @@ title = "Onwards and Upwards: Speckle & 2018"
 showtoc = "false"
 comments = "false"
 headerimg = "img/bgtest.png"
-featureclass = "featured-post"
 author = "Dimitrie Stefanescu"
 twitter = "idid"
 +++

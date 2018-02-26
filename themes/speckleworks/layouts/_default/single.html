@@ -4,7 +4,7 @@
 <div></div>
 {{ if (not (isset .Params "headerimg")) | or (eq .Params.headerimg "") }}
 {{else}}
-  <div class="header-img" style='background: url("/{{ .Params.headerimg }}") center center fixed  no-repeat'></div>
+  <div class="header-img" style='background-image: url("/{{ .Params.headerimg }}")'></div>
   {{end}}
   <div class="article-title card-5">
     <h1>

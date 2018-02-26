@@ -2,7 +2,7 @@
 <div class="main-header" style='margin-bottom: 100px;'>
   <header class="grid">
     <div class="row">
-      <div class="col col-12-of-12 col-m-4-of-4 text-center">
+      <div class="col col-12-of-12 col-m-4-of-4 xxx-text-center">
         <a class="logo-img" href="{{ .Site.BaseURL }}"><img src="img/logos/logo-bw.png" style="height: 100px; opacity: 0.72"> </a>
         <h1 class="heading">
          {{ .Site.Params.mainBlurb | safeHTML }}
@@ -63,7 +63,7 @@
         <strong><a href='/blog/'>Blog</a></strong>: Latest news and gossip on Speckle.
       </h2>
     </div>
-    {{- range first 2 ( where .Data.Pages.ByDate.Reverse "Section" "blog") }}
+    {{- range first 4 ( where .Data.Pages.ByDate.Reverse "Section" "blog") }}
     <div class="col col-6-of-12 col-m-4-of-4">
       <h4 class="">
         {{ if or (isset .Params "featureclass")}}
@@ -73,7 +73,7 @@
           {{ .Title }}
         </a>
       </h4>
-      <p><i>{{ .Params.description }}</i></p>
+      <p><i><small>{{ .Params.description }}</small></i></p>
     </div>
     {{- end }}
     <div class="col col-6-of-12 col-m-4-of-4">

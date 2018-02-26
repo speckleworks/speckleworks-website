@@ -37,7 +37,7 @@ a {
   font-family: 'Quicksand', sans-serif;
 }
 
-h3{
+h3 {
   line-height: 30px;
 }
 
@@ -58,7 +58,7 @@ body {
   width: 100%;
 }
 
-.list-card{
+.list-card {
   min-height: 250px;
 }
 
@@ -83,10 +83,9 @@ body {
 
 .card-1 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  
 }
 
-.card-xx{
+.card-xx {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
@@ -117,14 +116,18 @@ body {
 .header-img {
   position: relative;
   height: 80vh;
-  background-size: cover;
+  /*  background-size: cover;
   background-size: 100%;
   background-position: 50% 50%;
+  background-repeat: no-repeat;*/
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 @media(max-width: 480px) {
-  .header-img{
+  .header-img {
     height: 100vh;
   }
 }
@@ -145,15 +148,17 @@ body {
 @media(max-width: 840px) {
   .article-title {
     top: 20vh;
-    left:0;
+    left: 0;
     width: 100%;
   }
 }
+
 #toc {
   transition: all .3s ease;
   opacity: 1;
 }
-#toc.sticky{
+
+#toc.sticky {
   position: fixed;
   top: 80px;
 }
@@ -171,6 +176,7 @@ body {
 #TableOfContents a {
   border: none;
 }
+
 #TableOfContents li {
   line-height: 20px;
   font-size: 14px;
@@ -196,7 +202,8 @@ h2 {
   /*font-weight: 400;*/
 }
 
-h3.blurb, h2.blurb{
+h3.blurb,
+h2.blurb {
   font-weight: 400;
 }
 
@@ -277,7 +284,7 @@ a {
   overflow-wrap: break-word;
 }
 
-p a{
+p a {
   border-bottom: 2px solid #ADD6FF;
 }
 
@@ -379,7 +386,7 @@ strong {
   position: fixed;
   top: 0;
   /*left: calc(100vw - 50px);*/
-  right:0;
+  right: 0;
   font-size: 20px;
   z-index: 1000;
   width: 60px;
@@ -516,9 +523,7 @@ strong {
   max-width: 100%;
 }
 
-.fa {
-  
-}
+.fa {}
 
 .section-block {
   padding-top: 12px;
@@ -549,8 +554,9 @@ strong {
   height: 300px;
 }
 
-ul, li {
-    /*word-break: break-all;*/
+ul,
+li {
+  /*word-break: break-all;*/
 }
 
 nav ul,
@@ -559,7 +565,7 @@ nav li {
   list-style-type: none;
 }
 
-.highlight pre{
+.highlight pre {
   padding: 10px 20px;
   overflow: hidden;
 }
@@ -588,6 +594,7 @@ code {
   font-size: 14px !important;
   line-height: 22px !important;
 }
+
 
 
 

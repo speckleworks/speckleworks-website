@@ -8,14 +8,15 @@ pygmentsUseClassic=true
 
 [menu]
   [[menu.main]]
-      name = "Speckle"
+      name = ""
+      pre = "&nbsp<i class='fa fa-home'></i>"
       weight = -20
       identifier = "Speckle"
       url = "/"
   [[menu.main]]
       name = "About"
       # pre = "<i class='fa fa-hand-peace-o'></i>"
-      weight = 10
+      weight = 100
       url = "/about/"
   [[menu.main]]
       name = "Github"
@@ -27,11 +28,16 @@ pygmentsUseClassic=true
       # pre = "<i class='fa fa-mortar-board'></i>"
       weight = 80
       url = "/doc/"
+  # [[menu.main]]
+  #     name = "Slack"
+  #     pre = "<i class='fa fa-slack'></i>"
+  #     weight = 230
+  #     url = "https://slacker.speckle.works/"
   [[menu.main]]
-      name = "Slack"
-      pre = "<i class='fa fa-slack'></i>"
+      name = "Forum"
+      pre = "<i class='fa fa-comments-o'></i>"
       weight = 230
-      url = "https://slacker.speckle.works/"
+      url = "https://discourse.speckle.works/"
 
 [params]
   mainBlurb = "Open Data Rich Design"

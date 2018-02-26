@@ -5,7 +5,6 @@ title = "Speckle's 2017 Roundup"
 showtoc = "false"
 comments = "true"
 headerimg = "img/blog/speckleserver.png"
-featureclass = "featured-post"
 author = "Dimitrie Stefanescu"
 twitter = "idid"
 +++
