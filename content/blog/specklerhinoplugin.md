@@ -15,6 +15,8 @@ Neat, huh?
 
 ## Installing
 
+**Step 0:** Clear out any other speckle stuff. Especially check your Grasshopper libraries folder, and delete anything speckle related! 
+
 **Step 1:** Download the [latest rhino installer](https://ci.appveyor.com/api/projects/SpeckleWorks/SpeckleRhino/artifacts/specklerhino.rhi?branch=master&job=Configuration%3DRelease). 
 
 **Step 2:** Double click the .rhi and you should be good to go after a restart of Rhino. For optimal results, make sure you've deleted previous installs of speckle.
@@ -45,5 +47,5 @@ Other than that, enjoy!
 Head over to our [forum and buzz](https://discourse.speckle.works). If you think it's a more of a bug rather than a question, [report it on github](https://github.com/speckleworks/SpeckleRhino/issues)!
 
 ## Kudos
-This would have been impossible without the support and hard work of [@luis](https://twitter.com/luisfraguada), [@will](https://twitter.com/pearswj) & that nice company that makes [Rhino](https://www.rhino3d.com/).
+This would have been impossible without the support and hard work of [@luis](https://twitter.com/luisfraguada), [@will](https://twitter.com/pearswj), the brave beta-testers at [HENN](http://www.henn.com/en#design) & that nice company that makes [Rhino](https://www.rhino3d.com/).
 
