@@ -11,8 +11,6 @@ twitter = "idid"
 +++
 We are happy to share that the Speckle Rhino Plugin has now passed *some* quality checks and is ready for testing! You can now send data through Speckle directly from Rhino, to any other Rhino file or Grasshopper definition.
 
-Neat, huh?
-
 ## Installing
 
 **Step 0:** Clear out any other speckle stuff. Especially check your Grasshopper libraries folder, and delete anything speckle related! 
