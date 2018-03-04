@@ -10,6 +10,9 @@ featureclass = "featured-post"
 author = "Dimitrie Stefanescu"
 twitter = "idid"
 +++
+
+<h3>If you're looking for a quicker way, just follow the <a href="https://github.com/speckleworks/SpeckleServer">docker instructions in the readme of the speckle server repo</a>.</h3>
+
 Please note: this is a quite insecure way of deploying the speckle server. It is, nevertheless, fast and gives a quick satisfaction :) You can follow this tutorial for a local install just as well; just skip to part 3 (install mongo).
 
 # Step 1: Setup on [DigitalOcean](https://m.do.co/c/947a2b5d7dc1)*

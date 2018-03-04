@@ -12,28 +12,14 @@ author = "Dimitrie Stefanescu"
 twitter = "idid"
 +++
 
-# Step 0: What's in the box
-The releases contain both the Speckle Grasshopper Clients as well as the Speckle User Data Utils (more to come). 
+# **Step 1:** Installation
 
-# Step 1: Download the latest version.
-Head over to [Speckle Grasshopper's release page](https://github.com/speckleworks/SpeckleGrasshopper/releases).
+Download the [latest rhino installer](https://ci.appveyor.com/api/projects/SpeckleWorks/SpeckleRhino/artifacts/specklerhino.rhi?branch=master&job=Configuration%3DRelease). 
 
-If you want to grab a specific version, feel free. Nevertheless, it usually best to download the latest version (ie highest release number). 
+Double click it and restart rhino.
 
-# Step 2: Installation
-Close Rhino and Grasshopper if you have them running by any chance. 
-
-Unzip the downloaded zip and copy and paste the two folders in the Grasshopper components folder: 
-```
-%appdata%\Roaming\Grasshopper\Libraries
-```
-
-Make sure that all _dll_ and _gha_ files are **not** in the root folder but in their own folder called _SpeckleSendReceive_. 
-
-# Step 3: Create Your First Account
+# Step 2: Create Your First Account
 Fire Rhino and Grasshopper up. The Speckle Components should appear in their own tab, called `Speckle`. Wow! Smooth sailing so far.
-
-![spk](/img/ghinstall/gh-new.png)
 
 When you will first drag a Speckle Sender or Speckle Receiver component to the canvas, a dialog will ask you to create an account (or use an existing one).
 

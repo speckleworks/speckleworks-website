@@ -284,7 +284,7 @@ a {
   overflow-wrap: break-word;
 }
 
-p a {
+p a, h1 a, h2 a, h3 a, h4 a {
   border-bottom: 2px solid #ADD6FF;
 }
 
