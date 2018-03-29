@@ -14,19 +14,19 @@ twitter = "idid"
 # Examples 
 
 <div style='text-align: center; width: 100%;'>
-<a href="https://app.speckle.works/viewer/?rkp4LVi-b" style='margin-left: 2px; text-decoration: none; border: 0; '><img style='width: 47%;' src="/img/onlineviewer/ex1@0.75x.png" alt=""></a>
-<a href="https://app.speckle.works/viewer/?SJQTff1fW,Hyl7AQ1GZ" style='margin-left: 2px; text-decoration: none; border: 0; '><img style='width: 47%;' src="/img/onlineviewer/ex3@0.75x.png" alt=""></a>
+<a href="https://s003.speckle.works/view/?rkp4LVi-b" style='margin-left: 2px; text-decoration: none; border: 0; '><img style='width: 47%;' src="/img/onlineviewer/ex1@0.75x.png" alt=""></a>
+<a href="https://s003.speckle.works/view/?SJQTff1fW,Hyl7AQ1GZ" style='margin-left: 2px; text-decoration: none; border: 0; '><img style='width: 47%;' src="/img/onlineviewer/ex3@0.75x.png" alt=""></a>
 <br>
 <br>
-<a href="https://app.speckle.works/viewer/?H1YX_M4GZ,Sk8rGmNfb" style='margin-left: 2px; text-decoration: none; border: 0; '><img style='width: 47%;' src="/img/onlineviewer/ex2@0.75x.png" alt=""></a>
-<a href="https://app.speckle.works/viewer/?Hk8lgC8W-,BJqlzkPZb" style='margin-left: 2px; text-decoration: none; border: 0; '><img style='width: 47%;' src="/img/onlineviewer/ex4@0.75x.png" alt=""></a>
+<a href="https://s003.speckle.works/view/?H1YX_M4GZ,Sk8rGmNfb" style='margin-left: 2px; text-decoration: none; border: 0; '><img style='width: 47%;' src="/img/onlineviewer/ex2@0.75x.png" alt=""></a>
+<a href="https://s003.speckle.works/view/?Hk8lgC8W-,BJqlzkPZb" style='margin-left: 2px; text-decoration: none; border: 0; '><img style='width: 47%;' src="/img/onlineviewer/ex4@0.75x.png" alt=""></a>
 </div>
 
 <!-- 
 </div>
 </div>
 </div>
-<iframe src="https://app.speckle.works/viewer/?H1YX_M4GZ,Sk8rGmNfb" style="width:80%;height:600px;left:10%;position:relative;" frameborder="0"></iframe>
+<iframe src="https://s003.speckle.works/view/?H1YX_M4GZ,Sk8rGmNfb" style="width:80%;height:600px;left:10%;position:relative;" frameborder="0"></iframe>
 <div class="grid section-block article-block">
 <div class="row">
 <div class="col col-10-of-12 col-m4-of-4 article"> -->
@@ -34,9 +34,9 @@ twitter = "idid"
 # Viewing Streams
 Any stream that's sent through speckle can be viewed online. 
 
-That's quite simple. Just head over to https://app.speckle.works/viewer/ and click the red plus button in the corner. 
+That's quite simple. Just head over to https://s003.speckle.works/view/ and click the red plus button in the corner. 
 
-For the hackers, just appednd your streamIds to the url after a question mark, like this: https://app.speckle.works/viewer/?H1YX_M4GZ,Sk8rGmNfb
+For the hackers, just appednd your streamIds to the url after a question mark, like this: https://s003.speckle.works/view/?H1YX_M4GZ,Sk8rGmNfb
 
 You can log in or just continue as a guest. Logging in allows you to save views and change layer materials.
 
