@@ -284,7 +284,13 @@ a {
   overflow-wrap: break-word;
 }
 
-p a, h1 a, h2 a, h3 a, h4 a {
+p a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+li a,
+ul a {
   border-bottom: 2px solid #ADD6FF;
 }
 
@@ -601,6 +607,7 @@ code {
 
 
 
+
 /*text*/
 
 .heading,
@@ -618,6 +625,11 @@ code {
   font-weight: 100;
   font-size: 50px;
   line-height: 68px;
+}
+
+.heading-3 {
+  font-weight: 100;
+  font-size: 25px;
 }
 
 .heading-2 {

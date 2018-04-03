@@ -8,8 +8,9 @@ pygmentsUseClassic=true
 
 [menu]
   [[menu.main]]
-      name = ""
-      pre = "&nbsp<i class='fa fa-home'></i>"
+      name = "Home"
+      # pre = "&nbsp<img src='/img/2xlogo@4x.png' width='25'/>"
+      # pre = "&nbsp<i class='fa fa-home'></i>"
       weight = -20
       identifier = "Speckle"
       url = "/"
@@ -24,34 +25,29 @@ pygmentsUseClassic=true
       weight = 300
       url = "https://github.com/speckleworks"
   [[menu.main]]
-      name = "Docs"
-      # pre = "<i class='fa fa-mortar-board'></i>"
-      weight = 80
-      url = "/doc/"
-  # [[menu.main]]
-  #     name = "Slack"
-  #     pre = "<i class='fa fa-slack'></i>"
-  #     weight = 230
-  #     url = "https://slacker.speckle.works/"
-  [[menu.main]]
       name = "Forum"
       pre = "<i class='fa fa-comments-o'></i>"
       weight = 230
       url = "https://discourse.speckle.works/"
 
-[params]
-  mainBlurb = "Open Data Rich Design"
-  secondaryBlurb = """
-  Speckle reimagines the design process from the Internet up: an open source (MIT) initiative for developing an extensible Design & AEC data communication protocol and platform.
-  """
-  codeTitle = "<i class='fa fa-code-fork' style='color:#585858'></i> Developers: all the code is <a href='https://github.com/speckleworks'>on github</a>."
-  codeBlurb = """
-  Everything is released under the <strong>MIT License</strong>, and released into the SpeckleWorks' organizational umbrella on github. Join the Slack channel and ask for access if you want to start contributing!
 
-  <p><strong>The Path to Enlightenment:</strong>
-  <a href='https://speckleworks.github.io/SpeckleOpenApi/#introduction'>Read The Api Docs</a>, <a href='/doc/deployaserver/'>Deploy a Speckle Server</a> & Start Coding!</p>
-  """
-  testSpeckleTitle = "<i class='fa fa-cogs' style='color:#E5E5E5'></i> Don't want to deploy yourself? <a href='https://speckle.works/doc/grasshopperinstall/'>Take Speckle GH for a test run.</a>"
-  testSpeckleBlurb = "This will give you an idea of how the Speckle Grasshopper plug-in works and will allow you to explore some basic functionality behind the data rich approach."
-  horizon2020 = "This project has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No 642877."
+[params]
+mainBlurb = "Open Design Collaboration"
+secondaryBlurb = """
+Speckle reimagines the design process from the Internet up: an open source (MIT) initiative for developing an extensible Design & AEC data communication protocol and platform.
+"""
+horizon2020 = "This project has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No 642877."
+# [params.features]
+[[params.features]]
+    name = "Interop Done Right"
+    blurb = "Speckle's software agnostic and plays well with all major AEC software."
+[[params.features]]
+    name = "Fully Open Source"
+    blurb = "The whole Speckle ecosystem is licensed under the MIT license, 100% Free. Forever."
+[[params.features]]
+    name = "Your Data: Your Ownership"
+    blurb = "Deploy Speckle in-house or on the cloud: your choice. Your data stays yours."
+[[params.features]]
+    name = "Schema Agnostic"
+    blurb = "IFC or in-house data models? No problems. Speckle handles everything you got."
 
