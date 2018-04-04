@@ -28,7 +28,9 @@ The following steps will install both the Grasshopper plugin as well as the late
 Here's a quick video running through some basic motions at 2x speed:
 <div class='embed-container'><iframe width="560" height="315" src="https://www.youtube.com/embed/D4Bo7u6RtYA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
-First off, if you haven't, create an account on the speckle server of your choice. Not really willing or ready to [deploy your own](https://github.com/speckleworks/SpeckleServer)? Well, no worries, just use https://s003.speckle.works. 
+First off, if you haven't, create an account on the speckle server of your choice. Not really willing or ready to [deploy your own](https://github.com/speckleworks/SpeckleServer)?
+
+Well, no worries, just use `https://hestia.speckle.works/api/v1`! Note to users of `s003.speckle.works`: it will be deprecated. I've released [Speckle 1.0.0-beta](https://speckle.works/log/versionone/) and all rhino plugins have been upgraded.
 
 ![accounts](/img/blog/accounts.png)
 
