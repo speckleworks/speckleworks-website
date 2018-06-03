@@ -592,6 +592,10 @@ pre {
   font-family: monospace !important;
 }
 
+pre a {
+  font-family: monospace;
+}
+
 code {
   box-sizing: border-box;
   padding: 3px;
