@@ -4,6 +4,7 @@ title = "Builds"
 description = "Speckle nightly builds"
 type = "page"
 layout = "about"
+menu = "main"
 +++
 
 Here's one we built earlier.

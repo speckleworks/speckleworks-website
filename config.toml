@@ -29,10 +29,6 @@ pygmentsUseClassic=true
       pre = "<i class='fa fa-comments-o'></i>"
       weight = 230
       url = "https://discourse.speckle.works/"
-  [[menu.main]]
-      name = "Builds"
-      weight = 400
-      url = "/builds/"
 
 
 [params]
