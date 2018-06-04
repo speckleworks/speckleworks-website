@@ -2,63 +2,73 @@
 
 // document.getElementById('listing').innerHTML = "<pre>Loading...</pre>";
 
-var nwo = "speckleworks/SpeckleRhino";
+// var nwo = "speckleworks/SpeckleRhino";
+populate("speckleworks/SpeckleRhino");
+populate("speckleworks/SpeckleCore");
 
-var api_url = "https://ci.appveyor.com/api/";
+function populate(nwo) {
+  var api_url = "https://ci.appveyor.com/api/";
 
-var url = `${api_url}/projects/${nwo}/history?recordsNumber=10&branch=master`;
+  var url = `${api_url}/projects/${nwo}/history?recordsNumber=10&branch=master`;
 
-var xhr = new XMLHttpRequest();
-xhr.open('get', url, false);
-xhr.send(null);
-
-var json = JSON.parse(xhr.response);
-
-var items = [];
-for (var i = 0; i < json.builds.length; i++) {
-  var build = json.builds[i]
-
-  if (build.status != 'success') {
-    continue;
-  }
-
-  var url = `${api_url}/projects/${nwo}/build/${build.version}`;
+  var xhr = new XMLHttpRequest();
   xhr.open('get', url, false);
   xhr.send(null);
 
-  var build_json = JSON.parse(xhr.response);
+  var json = JSON.parse(xhr.response);
 
-  var jobId = build_json.build.jobs[0].jobId;
+  var items = [];
+  for (var i = 0; i < json.builds.length; i++) {
+    var build = json.builds[i]
 
+    if (build.status != 'success') {
+      continue;
+    }
 
-  var item = {};
+    // uncomment to call appveyor api to get job id (for direct artifact links)
+    // var url = `${api_url}/projects/${nwo}/build/${build.version}`;
+    // xhr.open('get', url, false);
+    // xhr.send(null);
+    //
+    // var build_json = JSON.parse(xhr.response);
+    //
+    // var jobId = build_json.build.jobs[0].jobId;
 
-  var date = Date.parse(build.finished);
-  var date = new Date(build.finished);
+    var item = {};
 
-  item.date = date.toISOString();
-  item.number = build.version;
-  item.ci_url = `https://ci.appveyor.com/project/${nwo}/build/${build.version}`;
+    var date = Date.parse(build.finished);
+    var date = new Date(build.finished);
 
-  item.sha = build.commitId;
-  item.sha_short = item.sha.slice(0,7);
-  item.github_url = `https://github.com/${nwo}/commit/${item.sha}`;
-  // item.message = build.message;
+    item.date = date.toISOString();
+    item.number = build.version;
+    item.ci_url = `https://ci.appveyor.com/project/${nwo}/build/${build.version}`;
 
-  item.artifact = 'specklerhino.rhi';
-  var artifact_url = `${api_url}/buildJobs/${jobId}/artifacts/specklerhino.rhi`;
-  item.artifact_url = artifact_url;
+    item.sha = build.commitId;
+    item.sha_short = item.sha.slice(0,7);
+    item.github_url = `https://github.com/${nwo}/commit/${item.sha}`;
+    // item.message = build.message; // not currently used
 
-  item.ref = build.branch;
-  if (build.pullRequestId != null) {
-    item.ref = '#' + build.pullRequestId;
-    item.ref_url = `https://github.com/${nwo}/pull/${build.pullRequestId}`;
+    // item.artifact = 'specklerhino.rhi'; // use generic download icon instead
+    // NOTE: don't use padRightUrl() for glyph - it gets truncated which causes issues
+    item.artifact = "<i class='fa fa-download'></i>";
+    // var artifact_url = `${api_url}/buildJobs/${jobId}/artifacts/specklerhino.rhi`;
+    // use generic url to save api calls
+    var artifact_url = `https://ci.appveyor.com/project/${nwo}/build/${build.version}/artifacts`;
+    item.artifact_url = artifact_url;
+
+    item.ref = build.branch;
+    if (build.pullRequestId != null) {
+      item.ref = '#' + build.pullRequestId;
+      item.ref_url = `https://github.com/${nwo}/pull/${build.pullRequestId}`;
+    }
+
+    items.push(item);
   }
 
-  items.push(item);
-}
+  var name = nwo.split('/')[1];
 
-document.getElementById('listing').innerHTML = '<pre>' + prepareTable(items) + '</pre>';
+  document.getElementById('listing' + name).innerHTML = '<pre>' + prepareTable(items) + '</pre>';
+}
 
 function prepareTable(items) {
   // items is object like:
@@ -74,9 +84,9 @@ function prepareTable(items) {
   //   },
   //   ...
   // ]
-  var cols = [ 29, 10, 12, 25, 16 ];
+  var cols = [ 29, 11, 12, 11, 10 ];
   var content = [];
-  content.push(padRight('Date', cols[0]) + padRight('Number', cols[1]) + padRight('SHA', cols[2]) + padRight('Artifact', cols[3]) + 'Branch\n');
+  content.push(padRight('Date', cols[0]) + padRight('Number', cols[1]) + padRight('Commit', cols[2]) + padRight('Branch', cols[3]) + 'Artifacts\n');
   content.push(new Array(cols[0] + cols[1] + cols[2] + cols[3] + cols[4] + 4).join('-') + '\n');
 
 
@@ -94,12 +104,14 @@ function renderRow(item, cols) {
   row += padRight(item.date, cols[0]);
   row += padRightUrl(item.number, item.ci_url, cols[1]);
   row += padRightUrl(item.sha_short, item.github_url, cols[2], item.message);
-  row += padRightUrl(item.artifact, item.artifact_url, cols[3]);
+  // row += padRightUrl(item.artifact, item.artifact_url, cols[3]);
   if (item.ref_url != null) {
-    row += padRightUrl(item.ref, item.ref_url, cols[4]);
+    row += padRightUrl(item.ref, item.ref_url, cols[3]);
   } else {
-    row += padRight(item.ref, cols[4]);
+    row += padRight(item.ref, cols[3]);
   }
+  // artifact name is now a glyph so don't risk truncating it
+  row += `<a href="${item.artifact_url}">${item.artifact}</a>`;
   // row += '  ';
   return row;
 }
