@@ -50,7 +50,7 @@ function populate(nwo) {
 
     // item.artifact = 'specklerhino.rhi'; // use generic download icon instead
     // NOTE: don't use padRightUrl() for glyph - it gets truncated which causes issues
-    item.artifact = "<i class='fa fa-download'></i>";
+    item.artifact = "<i class='fa fa-file-archive-o'></i>";
     // var artifact_url = `${api_url}/buildJobs/${jobId}/artifacts/specklerhino.rhi`;
     // use generic url to save api calls
     var artifact_url = `https://ci.appveyor.com/project/${nwo}/build/${build.version}/artifacts`;
