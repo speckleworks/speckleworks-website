@@ -5,6 +5,7 @@
 // var nwo = "speckleworks/SpeckleRhino";
 populate("speckleworks/SpeckleRhino");
 populate("speckleworks/SpeckleCore");
+populate("speckleworks/SpeckleDynamo");
 
 function populate(nwo) {
   var api_url = "https://ci.appveyor.com/api/";

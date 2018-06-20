@@ -19,6 +19,6 @@ Here's one we built earlier.
 
 ## [SpeckleDynamo](https://github.com/speckleworks/SpeckleDynamo)
 
-_Coming soon!_
+<div id="listingSpeckleDynamo"><pre>Loading...</pre></div>
 
 <script async defer src="/js/builds.js"></script>
