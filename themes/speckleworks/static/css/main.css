@@ -23,7 +23,7 @@
   height: 100%;
 }
 
-* {
+a, p, h1, h2, h3, h4, h5, h6, li, ul {
   color: #525252;
 }
 
@@ -45,6 +45,8 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+
 
 .card {
   background: #fff;
@@ -115,11 +117,7 @@ body {
 
 .header-img {
   position: relative;
-  height: 80vh;
-  /*  background-size: cover;
-  background-size: 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;*/
+  height: 42vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -381,7 +379,7 @@ hr {
 }
 
 strong {
-  /*font-weight: 700 !important;*/
+  font-weight: 700 !important;
 }
 
 .add-shadow {
@@ -634,11 +632,36 @@ code {
 .heading-3 {
   font-weight: 100;
   font-size: 25px;
+  line-height: 48px;
 }
 
 .heading-2 {
   font-size: 35px;
 }
+
+.heading-about{
+  color: #0080FF;
+  /*font-size: 35px;*/
+  /*font-weight: normal;*/
+  /*text-align: justify;*/
+  line-height: 1.6;
+}
+
+span.emp{
+  padding:  10px;
+  color: white;
+  background-color: rgba(0, 128, 255, 0.8)
+}
+
+span.emp a {
+  color: white;
+}
+
+.blue span.emp{
+  padding:  10px;
+  background-color: rgba(0, 235, 247, 0.5)
+}
+
 
 @media (max-width: 900px) {
   .heading {

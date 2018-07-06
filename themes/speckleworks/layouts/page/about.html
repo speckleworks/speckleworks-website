@@ -1,9 +1,18 @@
 {{ partial "header-single.html" . }}
-{{ partial "page-header.html" .}}
+{{ partial "page-header.html" . }}
+<div class='blue'>
+  <div class="grid section-block">
+    <div class="row">
+      <div class="col col-12-of-12">
+        <h2 class="subheadingxxx" style='color:white; padding-top: 20px;'><a href=" {{ .Site.BaseURL }} ">home</a> / {{ lower .Title }}</h2>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="grid section-block article-block">
   <div class="row">
-    <div class="col col-12-of-12 col-m-4-of-4 article">
-      <h1 class="heading">{{ .Title }}</h1>
+    <div class="col xxx-push-2-of-12 col-10-of-12 m-un-push col-m-4-of-4 article">
+      <!-- <h1 class="heading">{{ .Title }}</h1> -->
       {{ .Content }}
     </div>
   </div>
