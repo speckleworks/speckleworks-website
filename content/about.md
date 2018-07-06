@@ -9,7 +9,7 @@ weight = 10
 
 <h1 class='heading-about' style="">
     
-    Speckle is <span class="emp">open digital infrastructure for designing, making and operating</span> the built environment collaboratively.
+    <span class="emp">Speckle is open digital infrastructure for designing, making and operating the built environment collaboratively.</span>
 
 </h1>
 
