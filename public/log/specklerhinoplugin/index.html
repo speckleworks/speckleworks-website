@@ -1,0 +1,212 @@
+
+<html>
+<head>
+  <title>Speckle Rhino Plugin Release</title>
+  <meta charSet="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="icon" type="image/png" href="https://speckle.works/img/logos/logo-xs.png">
+  <link rel="apple-touch-icon" type="image/png" href="https://speckle.works/img/logos/2xlogo-white.png">
+  <link rel="icon" sizes="144x144" href="https://speckle.works/img/logos/2xlogo-white.png">
+  
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="/css/waffle-grid.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <meta property="og:title" content="Speckle Rhino Plugin Release">
+  <meta property="og:description" content="The Speckle Rhino Plugin installation and usage notes. ">
+  <meta property="og:image" content="https://speckle.works/img/blog/rhinoPlugin@2x.png">
+  <meta property="og:url" content="https://speckle.works/log/specklerhinoplugin/">
+
+  <meta name="twitter:site" content="@idid">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://speckle.works/img/blog/rhinoPlugin@2x.png" />
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96321582-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+<div class="navigation-header">
+  <div class="grid section-block m-hide main-nav-header">
+    <div class="row">
+      <div class="col col-12-of-12">
+        <nav class="sidebar-nav">
+           
+             
+                <a class="sidebar-nav-item" href="/">  Home</a> 
+             
+                <a class="sidebar-nav-item" href="/about/">  About</a> 
+             
+                <a class="sidebar-nav-item active" href="/log/">  Log</a> 
+             
+                <a class="sidebar-nav-item" href="/builds/">  Builds</a> 
+             
+                <a class="sidebar-nav-item" href="https://github.com/speckleworks"> <i class='fa fa-github'></i> Github</a> 
+             
+                <a class="sidebar-nav-item" href="https://discourse.speckle.works/"> <i class='fa fa-comments-o'></i> Forum</a> 
+            
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-button add-shadow m-and-lower" id="menubutton">
+    <img src="/img/logos/logo-xs.png" style="height: 20px;">
+  </div>
+  <div id="mobilemenu" class="grid mobile-menu m-and-lower">
+    <div class="mobile-button-close" id="menubuttonclose">
+      <i class="fa fa-close"></i>
+    </div>
+    <div class="row">
+      <div class="col col-12-of-12 center-me-wrap">
+        <nav class="sidebar-nav" style="width: 100%;">
+            
+          <a class="sidebar-nav-item" href="/">  Home</a>   
+          <a class="sidebar-nav-item" href="/about/">  About</a>   
+          <a class="sidebar-nav-item active" href="/log/">  Log</a>   
+          <a class="sidebar-nav-item" href="/builds/">  Builds</a>   
+          <a class="sidebar-nav-item" href="https://github.com/speckleworks"> <i class='fa fa-github'></i> Github</a>   
+          <a class="sidebar-nav-item" href="https://discourse.speckle.works/"> <i class='fa fa-comments-o'></i> Forum</a>  
+        </nav>
+      </div>
+    </div>
+  </div>
+</div> <div class="m-hide" style="height: 42px; pointer-events: none;">
+</div>
+<div></div>
+<div class='blue'>
+  <div class="grid section-block">
+    <div class="row">
+      <div class="col col-12-of-12">
+        <h2 class="subheadingxxx" style='color:white; padding-top: 20px; line-height: 2;'><a href=" https://speckle.works ">home</a> /  <a href="https://speckle.workslog">log</a> / speckle rhino plugin release</h2>
+        <subtitle>
+          <p>
+            <em>by <a href="https://twitter.com/idid" style='border: none; font-size: 16px;'>Dimitrie Stefanescu <i class='fa fa-twitter' style='color:#86AFFB'></i></a></em>
+            <br>
+            <small>2 min read. Posted on Sun, Feb 25, 2018</small>
+          </p>
+        </subtitle>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div></div>
+
+<div class="header-img" style='background-image: url("/img/blog/rhinoPlugin@2x.png")'></div>
+
+<div class="grid section-block article-block">
+  <div class="row">
+    
+    <div class="col xxx-push-2-of-12 col-10-of-12 m-un-push col-m-4-of-4 article">
+      
+
+<p>We are happy to share that the Speckle Rhino Plugin has now passed <em>some</em> quality checks and is ready for testing! You can now send data through Speckle directly from Rhino, to any other Rhino file or Grasshopper definition.</p>
+
+<h2 id="installing">Installing</h2>
+
+<p><strong>Step 0:</strong> Clear out any other speckle stuff. Especially check your Grasshopper libraries folder, and delete anything speckle related!</p>
+
+<p><strong>Step 1:</strong> Download the <a href="https://ci.appveyor.com/api/projects/SpeckleWorks/SpeckleRhino/artifacts/specklerhino.rhi?branch=master&amp;job=Configuration%3DRelease">latest rhino installer</a>.</p>
+
+<p><strong>Step 2:</strong> Double click the .rhi and you should be good to go after a restart of Rhino. For optimal results, make sure you&rsquo;ve deleted previous installs of speckle.</p>
+
+<p><strong>Step 3:</strong> Pop open the speckle panel.</p>
+
+<p>The following steps will install both the Grasshopper plugin as well as the latest Rhino plugin. Be sure to check the releases, we&rsquo;ve been updating quite frequently in the past.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Here&rsquo;s a quick video running through some basic motions at 2x speed:
+<div class='embed-container'><iframe width="560" height="315" src="https://www.youtube.com/embed/D4Bo7u6RtYA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div></p>
+
+<p>First off, if you haven&rsquo;t, create an account on the speckle server of your choice. Not really willing or ready to <a href="https://github.com/speckleworks/SpeckleServer">deploy your own</a>?</p>
+
+<p>Well, no worries, just use <code>https://hestia.speckle.works/api/v1</code>! Note to users of <code>s003.speckle.works</code>: it will be deprecated. I&rsquo;ve released <a href="https://speckle.works/log/versionone/">Speckle 1.0.0-beta</a> and all rhino plugins have been upgraded.</p>
+
+<p><img src="/img/blog/accounts.png" alt="accounts" /></p>
+
+<p>Do be aware that this is a test server, therefore it can get flushed or hacked at any time, fail or generally make you cry.</p>
+
+<p><img src="/img/blog/sendreceive.png" alt="clients" /></p>
+
+<p>You can now create receivers and senders. Just select some geometry and start having fun. Clients will be saved in each file, so when you open it again, they will show up.</p>
+
+<p>Other than that, enjoy!</p>
+
+<h2 id="bugs-problems">Bugs &amp; Problems</h2>
+
+<p>Head over to our <a href="https://discourse.speckle.works">forum and buzz</a>. If you think it&rsquo;s a more of a bug rather than a question, <a href="https://github.com/speckleworks/SpeckleRhino/issues">report it on github</a>!</p>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>This would have been impossible without the support and hard work of <a href="https://twitter.com/luisfraguada">@luis</a>, <a href="https://twitter.com/pearswj">@will</a>, the brave beta-testers at <a href="http://www.henn.com/en#design">HENN</a> &amp; that nice company that makes <a href="https://www.rhino3d.com/">Rhino</a>.</p>
+
+    </div>
+    
+    <div class="col xxx-push-2-of-12 col-10-of-12 m-un-push col-m-4-of-4 article">
+    </div>
+  </div>
+</div>
+
+<div class="grid section-block article-block">
+  <div class="row">
+    <div class="col col-12-of-12 col-m-4-of-4">
+      <h5>Having trouble? Found a bug? Have a question? Join the discussion below our join our <a href="https://slacker.speckle.works">slack channel.</a></h5> <div id='discourse-comments'></div>
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://discourse.speckle.works/',
+                     discourseEmbedUrl: "https://speckle.works/log/specklerhinoplugin/"
+                   };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
+    </div>
+  </div>
+</div>
+ <div class="footer blue">
+  <div class="grid">
+  <br>
+  <br>
+  <br>
+    <div class="row">
+      <div class='col col-9-of-12 col-m-4-of-4'>
+
+      <p class="xxsubheading">
+        Get in touch on <a href="https://slacker.speckle.works/" style='border:none'><i class='fa fa-slack'></i> Slack</a>!
+        <hr>
+      </p>
+      
+      
+      <p class="paragraph">
+          This project has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No 642877.
+      </p>
+      <br>
+      <br>
+      <br>
+      <p class="paragraph"><small>Started off by <a href="http://twitter.com/idid">Dimitrie Stefanescu</a> in 2015 while at <a href="https://www.ucl.ac.uk/bartlett/" class="href">UCL The Bartlett</a> & <a href="http://innochain.net/">InnoChain</a>. All work (c) project contributors, licensed under MIT.</small></p> 
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="col col-3-of-12 text-right">
+        <a class="logo-img" href="https://speckle.works"><img src="/img/logos/2xlogo-white.png" style="width: 75px;"> </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script async defer src="/js/scripts.js"></script>
+</body>
+</html>

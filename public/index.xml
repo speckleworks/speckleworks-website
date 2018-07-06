@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speckle: Open Data Rich Design</title>
+    <link>https://speckle.works/</link>
+    <description>Recent content on Speckle: Open Data Rich Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Apr 2017 10:41:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://speckle.works/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://speckle.works/about/</link>
+      <pubDate>Mon, 03 Apr 2017 10:41:36 +0100</pubDate>
+      
+      <guid>https://speckle.works/about/</guid>
+      <description>Speckle is open digital infrastructure for designing, making and operating the built environment collaboratively.  Speckle started out as research in digital design collaboration. What become evident was that there was no truly open digital infrastructure for design data sharing that people could actually use, or build on top of without getting locked in proprietary solutions. Therefore, this is what we&amp;rsquo;ve set up to build, from the internet up: a truly open, vendor-neutral platform that connects Architecture, Engineering and Construction.</description>
+    </item>
+    
+    <item>
+      <title>Builds</title>
+      <link>https://speckle.works/builds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://speckle.works/builds/</guid>
+      <description> Below are the latest plugin builds. They are autmatically pulled from our CI runs. To download, click on the artifact link.
+SpeckleRhino 
+Loading... SpeckleDynamo 
+Loading... SpeckleCore Loading...  </description>
+    </item>
+    
+    <item>
+      <title>Speckle 1.0.0</title>
+      <link>https://speckle.works/log/versionone/</link>
+      <pubDate>Mon, 02 Apr 2018 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/log/versionone/</guid>
+      <description>Introduction While some are closing shop, we&amp;rsquo;re just getting started 🙌
+This marks the release of the 1.0.0-beta version of the Speckle API &amp;amp; Server. It includes, besides easter eggs and bugs, a mature &amp;amp; enriched API that lays the groundwork for future functionality to be grown, specifically in regards with comments, history/versioning and project management.
+Going forward, all 1.*.* releases will be compatible.
+The Admin App A long since needed ecosystem piece, current features are the following:</description>
+    </item>
+    
+    <item>
+      <title>Speckle Rhino Plugin Release</title>
+      <link>https://speckle.works/log/specklerhinoplugin/</link>
+      <pubDate>Sun, 25 Feb 2018 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/log/specklerhinoplugin/</guid>
+      <description>We are happy to share that the Speckle Rhino Plugin has now passed some quality checks and is ready for testing! You can now send data through Speckle directly from Rhino, to any other Rhino file or Grasshopper definition.
+Installing Step 0: Clear out any other speckle stuff. Especially check your Grasshopper libraries folder, and delete anything speckle related!
+Step 1: Download the latest rhino installer.
+Step 2: Double click the .</description>
+    </item>
+    
+    <item>
+      <title>Onwards and Upwards: Speckle &amp; 2018</title>
+      <link>https://speckle.works/log/onwardsandupwards/</link>
+      <pubDate>Mon, 01 Jan 2018 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/log/onwardsandupwards/</guid>
+      <description>Going Forward! On the 30th of November 2017, there was a &amp;ldquo;Speckle Meeting&amp;rdquo; at The Bartlett, with 19 people from all around the AEC industry (&amp;amp; world) joining to discuss the future of design data communication.
+I will not focus on the technical parts of that meeting (it was a six hours long meeting), but I would outline the core principles &amp;amp; actions that were agreed upon below: Speckle Will Become Real Speckle&amp;rsquo;s a lot of work - more than I can handle alone.</description>
+    </item>
+    
+    <item>
+      <title>Speckle&#39;s 2017 Roundup</title>
+      <link>https://speckle.works/log/2017roundup/</link>
+      <pubDate>Fri, 29 Dec 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/log/2017roundup/</guid>
+      <description>Intro The domain name for Speckle.Works was registered around March 2016. This means the end of 2017 catches us approximatively 9 months into speckle&amp;rsquo;s life. As some of you may know, this is not really accurate - this incarnation of speckle is built on lessons learned in the three previous ones: speckle.xyz, beta speckle and speckle streams, with the first going back to late 2015.
+Below is a roundup of the last few months.</description>
+    </item>
+    
+    <item>
+      <title>Schemas, Standards and Speckle</title>
+      <link>https://speckle.works/log/schemasandstandards/</link>
+      <pubDate>Wed, 27 Dec 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/log/schemasandstandards/</guid>
+      <description>Introduction As there is no such thing in AEC as &amp;ldquo;one model&amp;rdquo;, equally there is no &amp;ldquo;one standard&amp;rdquo;: Speckle delivers your own data in your own way to other design stakeholders in a managed &amp;amp; curated way.
+How? Speckle allows for objects of arbitrary classes to be sent in between clients. This happens with the help of the recently introduced SpeckleAbstract type and some extra functionalities embedded in the Speckle Core Converter class that allow for serialisation and deserialisation of standard .</description>
+    </item>
+    
+    <item>
+      <title>Speckle @ AEC Symposium in New York</title>
+      <link>https://speckle.works/log/aecsymposium/</link>
+      <pubDate>Fri, 06 Oct 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/log/aecsymposium/</guid>
+      <description> In case you missed it, I&amp;rsquo;m going to be giving a Speckle workshop at the CoreTT AEC Symposium! I&amp;rsquo;ll be there during the following hackaton too.
+Things that I will try and cover:
+ Bootstrapping a simple Speckle Server The Speckle Grasshopper Components + Custom Properties The .NET Speckle Api (SpeckleCore) Querying The Server Web Frontend Apps  Register here! </description>
+    </item>
+    
+    <item>
+      <title>Speckle 0.0.3 Released.</title>
+      <link>https://speckle.works/log/specklerelease3/</link>
+      <pubDate>Sun, 01 Oct 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/log/specklerelease3/</guid>
+      <description>After some hacking, Speckle is ready to roll out v.0.0.3. Here&amp;rsquo;s what&amp;rsquo;s new:
+Api Docs Improved and much expanded. A host of new methods have been added in the hope that they will make future plug-in &amp;amp; client development easier. Check them out here.
+Server side: Queries The server now supports querying on stream objects as well as objects. Routes that support queries:
+ Stream objects Stream Layer objects Object Get Objects Bulk  Diffing &amp;amp; Cloning You can now quickly do a &amp;lsquo;diff&amp;rsquo; between two streams, as well as branch streams off each other.</description>
+    </item>
+    
+    <item>
+      <title>Why is Speckle Open?</title>
+      <link>https://speckle.works/log/federated/</link>
+      <pubDate>Sat, 30 Sep 2017 13:08:41 +0100</pubDate>
+      
+      <guid>https://speckle.works/log/federated/</guid>
+      <description>Design data communication around complex projects is too big a issue to be handled in a centralized fashion. Furthermore, stakeholders have their own, project specific requirements when it comes to guaranteeing project data safety and all the issues around non-disclosure agreements - it&amp;rsquo;s sometimes a schizophrenic world, but it&amp;rsquo;s what we have to deal with.
+Speckle is released under the MIT License - in case you&amp;rsquo;re wondering, it&amp;rsquo;s one of the most permissive licenses out there - for this specific reason: anyone is free to do take Speckle and deploy it as they see fit:</description>
+    </item>
+    
+    <item>
+      <title>Codebase: The Speckle Ecosystem</title>
+      <link>https://speckle.works/codebase/</link>
+      <pubDate>Fri, 21 Apr 2017 14:59:00 +0100</pubDate>
+      
+      <guid>https://speckle.works/codebase/</guid>
+      <description>The Speckle Ecosystem is a work in progress collection of libraries and application plugins. At the center of it is the Speckle Server, which coordinates all communication activities.
+Code Repositories All code is licensed under the MIT Licence.
+Speckle Server   Github Repo   The Speckle Server coordinates communications between the various SpeckleClients. It provides a basic accounts system, stream coordination, design data collation and retrieval, live update events and a basic querying mecahnism.</description>
+    </item>
+    
+    <item>
+      <title>Roadmap</title>
+      <link>https://speckle.works/roadmap/</link>
+      <pubDate>Fri, 21 Apr 2017 14:59:00 +0100</pubDate>
+      
+      <guid>https://speckle.works/roadmap/</guid>
+      <description>-- Core Speckle Server  Docker image (&amp;hellip;) Query API - in the works  Streams Objects  History API Horizontal Scalability &amp;amp; improve overall load performance Migrate from Mongodb to Postgresql (later, once api stable)  .NET Families  Grasshopper Receiver [x], Sender [x] - In Progress, check the codebase. Rhino Receiver, Sender - In The Works Dynamo Receiver, Sender - Up for grabs Excel Sender, Excel Receiver - Up for grabs Other Software - Let us know on slack or in the comments below.</description>
+    </item>
+    
+  </channel>
+</rss>
