@@ -1,6 +1,5 @@
 {{ partial "header.html" . }} {{ partial "page-header.html" .}}
-<div class="blue-xs">
-<div class='blue' >
+<div class='blue'>
   <div class="grid section-block">
     <div class="row">
       <div class="col col-12-of-12">
@@ -9,12 +8,12 @@
     </div>
   </div>
 </div>
-  <!-- <hr> -->
-  <div class="grid section-block">
-    <div class="row">
-      {{ range .Data.Pages }}
-      <div class="col col-6-of-12 col-m-4-of-4 card card-2 card-xx list-card">
-        <h3 class="">
+<!-- <hr> -->
+<div class="grid section-block">
+  <div class="row">
+    {{ range .Data.Pages }}
+    <div class="col col-6-of-12 col-m-4-of-4 card card-2 card-xx list-card">
+      <h3 class="">
         {{ if or (isset .Params "featureclass")}}
           <i class='fa fa-star' style='color: #0080FF'></i>
         {{ end }}
@@ -22,13 +21,13 @@
           {{ .Title }}
         </a>
       </h3>
-        <p><small>Posted on {{ .Date.Format "Mon, Jan 2, 2006" }} | {{ .ReadingTime }} min read
+      <p><small>Posted on {{ .Date.Format "Mon, Jan 2, 2006" }} | {{ .ReadingTime }} min read
         <br><i>{{ .Params.description }}</i><br><a href="{{ .Permalink }}">Read more...</a>
         </small>
-        </p>
-      </div>
-      {{ end }}
+      </p>
     </div>
+    {{ end }}
   </div>
+</div>
 </div>
 {{ partial "footer.html" . }}

@@ -1,0 +1,283 @@
+
+<html>
+<head>
+  <title>Speckle 1.0.0</title>
+  <meta charSet="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="icon" type="image/png" href="https://speckle.works/img/logos/logo-xs.png">
+  <link rel="apple-touch-icon" type="image/png" href="https://speckle.works/img/logos/2xlogo-white.png">
+  <link rel="icon" sizes="144x144" href="https://speckle.works/img/logos/2xlogo-white.png">
+  
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="/css/waffle-grid.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <meta property="og:title" content="Speckle 1.0.0">
+  <meta property="og:description" content="Two and half years in, Speckle&#39;s ready for a 1.0.0. A major server-side upgrade: comments, projects &amp; permissions &amp; a simpler and cleaner api.">
+  <meta property="og:image" content="https://speckle.works/img/versionone/speckle_versionone.png">
+  <meta property="og:url" content="https://speckle.works/log/versionone/">
+
+  <meta name="twitter:site" content="@idid">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://speckle.works/img/versionone/speckle_versionone.png" />
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96321582-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+<div class="navigation-header">
+  <div class="grid section-block m-hide main-nav-header">
+    <div class="row">
+      <div class="col col-12-of-12">
+        <nav class="sidebar-nav">
+           
+             
+                <a class="sidebar-nav-item" href="/">  Home</a> 
+             
+                <a class="sidebar-nav-item" href="/about/">  About</a> 
+             
+                <a class="sidebar-nav-item active" href="/log/">  Log</a> 
+             
+                <a class="sidebar-nav-item" href="/builds/">  Builds</a> 
+             
+                <a class="sidebar-nav-item" href="https://github.com/speckleworks"> <i class='fa fa-github'></i> Github</a> 
+             
+                <a class="sidebar-nav-item" href="https://discourse.speckle.works/"> <i class='fa fa-comments-o'></i> Forum</a> 
+            
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-button add-shadow m-and-lower" id="menubutton">
+    <img src="/img/logos/logo-xs.png" style="height: 20px;">
+  </div>
+  <div id="mobilemenu" class="grid mobile-menu m-and-lower">
+    <div class="mobile-button-close" id="menubuttonclose">
+      <i class="fa fa-close"></i>
+    </div>
+    <div class="row">
+      <div class="col col-12-of-12 center-me-wrap">
+        <nav class="sidebar-nav" style="width: 100%;">
+            
+          <a class="sidebar-nav-item" href="/">  Home</a>   
+          <a class="sidebar-nav-item" href="/about/">  About</a>   
+          <a class="sidebar-nav-item active" href="/log/">  Log</a>   
+          <a class="sidebar-nav-item" href="/builds/">  Builds</a>   
+          <a class="sidebar-nav-item" href="https://github.com/speckleworks"> <i class='fa fa-github'></i> Github</a>   
+          <a class="sidebar-nav-item" href="https://discourse.speckle.works/"> <i class='fa fa-comments-o'></i> Forum</a>  
+        </nav>
+      </div>
+    </div>
+  </div>
+</div> <div class="m-hide" style="height: 42px; pointer-events: none;">
+</div>
+<div></div>
+<div class='blue'>
+  <div class="grid section-block">
+    <div class="row">
+      <div class="col col-12-of-12">
+        <h2 class="subheadingxxx" style='color:white; padding-top: 20px; line-height: 2;'><a href=" https://speckle.works ">home</a> /  <a href="https://speckle.workslog">log</a> / speckle 1.0.0</h2>
+        <subtitle>
+          <p>
+            <em>by <a href="https://twitter.com/idid" style='border: none; font-size: 16px;'>Dimitrie Stefanescu <i class='fa fa-twitter' style='color:#86AFFB'></i></a></em>
+            <br>
+            <small>4 min read. Posted on Mon, Apr 2, 2018</small>
+          </p>
+        </subtitle>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div></div>
+
+<div class="header-img" style='background-image: url("/img/versionone/speckle_versionone.png")'></div>
+
+<div class="grid section-block article-block">
+  <div class="row">
+    
+    <div class="col col-3-of-12 col-m-4-of-4 m-hide">
+      <div id='toc'>
+        <h5>Contents</h5> <nav id="TableOfContents">
+<ul>
+<li><a href="#introduction">Introduction</a>
+<ul>
+<li><a href="#the-admin-app">The Admin App</a></li>
+<li><a href="#the-viewer-app">The Viewer App</a></li>
+<li><a href="#the-server-api">The Server &amp; API</a>
+<ul>
+<li><a href="#permissions">Permissions</a></li>
+<li><a href="#comments">Comments</a></li>
+<li><a href="#projects">Projects</a></li>
+</ul></li>
+<li><a href="#the-net-sdk">The .NET SDK</a></li>
+<li><a href="#migration-testing">Migration &amp; Testing</a></li>
+<li><a href="#kudos">Kudos</a></li>
+</ul></li>
+</ul>
+</nav>
+      </div>
+    </div>
+    <div class="col col-9-of-12 col-m-4-of-4 article">
+      
+
+<h1 id="introduction">Introduction</h1>
+
+<p>While some are closing shop, we&rsquo;re just getting started 🙌</p>
+
+<p>This marks the release of the 1.0.0-beta version of the Speckle API &amp; Server. It includes, besides easter eggs and bugs, a mature &amp; enriched API that lays the groundwork for future functionality to be grown, specifically in regards with comments, history/versioning and project management.</p>
+
+<p>Going forward, all 1.*.* releases will be compatible.</p>
+
+<h2 id="the-admin-app">The Admin App</h2>
+
+<p><img src="/img/versionone/admin.png" alt="server" />
+A long since needed ecosystem piece, current features are the following:</p>
+
+<ul>
+<li>search &amp; filter your streams &amp; the streams shared with you.</li>
+<li>manage stream permissions: share &amp; grant read/write access to coworkers.</li>
+<li>edit stream names and other properties</li>
+<li>archive &amp; delete streams, and more&hellip;</li>
+</ul>
+
+<h2 id="the-viewer-app">The Viewer App</h2>
+
+<p><img src="/img/versionone/viewer.png" alt="server" />
+Thanks to the hard steady work of <a href="https://twitter.com/matthewswaidan">@mswaidan</a>&rsquo;s commits squeezed in between milling <a href="https://www.simplewoodgoods.com/">the world&rsquo;s best vinyl cabinets</a>, the viewer got revamped:</p>
+
+<ul>
+<li>improved ui</li>
+<li>better login flow</li>
+<li>searching through your streams</li>
+<li>more supported geometries (almost all!) and more&hellip;</li>
+</ul>
+
+<h2 id="the-server-api">The Server &amp; API</h2>
+
+<p><img src="/img/versionone/server.png" alt="server" /></p>
+
+<p>The API has been simplified and cleaned up. Before we had ±36 endpoints dealing with essentially three models (accounts, streams and objects). Now we have ±34 endpoints dealing with 5 models (accounts, streams, objects, comments and projects). The <a href="https://speckleworks.github.io/SpeckleSpecs/">docs have been updated</a>.</p>
+
+<p>Server side api versioning is now also in place, which means that going forward, different api versions can be concurrently served. So you&rsquo;re looking at api/v1 and api/v0, for example.</p>
+
+<p>I&rsquo;ve eliminated the silly payloads for POST/PUT endpoints and opted for direct provision of a ${object} in the request body. Furthermore, responses have been simplified and unified: any server response inherits from a <a href="https://speckleworks.github.io/SpeckleSpecs/#responsebase">ResponseBase</a>, and results will be either in the resource or resources key, depending on the request (get one/get multiple).</p>
+
+<h3 id="permissions">Permissions</h3>
+
+<p>The biggest changes here are the introduction of a simple permissions system that can be controlled on streams via the admin app.</p>
+
+<p>Permissions are not limited to streams though, they have been extended to <a href="https://speckleworks.github.io/SpeckleSpecs/#resourcebase">all models besides users</a>. Furthermore, you can explicitly turn on &ldquo;anonymous comments&rdquo; for easier input gathering without forcing outside users to register.</p>
+
+<p>Resources can be marked as &ldquo;private&rdquo;, in which case only the persons that have access can get to. You can explicitly share a stream with someone, in which case this stream will show up in that user&rsquo;s stream list too. You can grant read or write access.</p>
+
+<h3 id="comments">Comments</h3>
+
+<p>Streams, objects, projects and comments themselves can now receive <a href="https://speckleworks.github.io/SpeckleSpecs/#comments">comments</a>. The comments model has been rethought and some scaffolding is there for the future, namely:</p>
+
+<ul>
+<li>you can assign comments to other users</li>
+<li>comments can be resolved or not</li>
+<li>comments can have labels</li>
+<li>comments can have saved views attached to them</li>
+<li>comments can have a url to a screenshot (for graphical annotations)</li>
+</ul>
+
+<h3 id="projects">Projects</h3>
+
+<p><a href="https://speckleworks.github.io/SpeckleSpecs/#projects">Projects</a> are essentially a collection of streams and users (and, uh, other projects - yes, you can have sub-projects!). They should help organise your workflow easier in the future once they are exposed through a ui in the admin app and various plugins.</p>
+
+<p>They can receive comments, which should allow you to create multiple stream-wide issues and generally have wider discussions.</p>
+
+<h2 id="the-net-sdk">The .NET SDK</h2>
+
+<p><a href="https://github.com/speckleworks/SpeckleCore">SpeckleCore</a> and all its dependents (namely <a href="https://github.com/speckleworks/SpeckleRhino">SpeckleRhino</a> and <a href="https://github.com/speckleworks/SpeckleView">SpeckleView</a>) have been updated, and the new api methods and models have been generated and incorporated. Do report any bugs or inconsistencies you might find!</p>
+
+<h2 id="migration-testing">Migration &amp; Testing</h2>
+
+<p>I&rsquo;ve deployed <strong>hestia.speckle.works</strong> as a test server for all of you to use. To  start playing:</p>
+
+<ol>
+<li>Download the latest version of the <a href="https://github.com/speckleworks/SpeckleRhino">Rhino &amp; Gh plugins</a> (breaks backwards compatibility!)</li>
+<li>Create an account using <strong><a href="https://hestia.speckle.works/api/v1">https://hestia.speckle.works/api/v1</a></strong> as the server url.</li>
+<li>You&rsquo;re good to go. The admin app is at <a href="https://hestia.speckle.works/admin/">/admin</a> and the viewer at <a href="https://hestia.speckle.works/view/">/view</a>.</li>
+</ol>
+
+<p>⚠️ s003.speckle.works is still operational with the pre 1.0.0 update. Do not update your plugins if you want to maintain using s003!</p>
+
+<p>Please be aware though that s003 will be retired at one point.</p>
+
+<h2 id="kudos">Kudos</h2>
+
+<p>This would have been impossible without the support and hard work of <a href="https://twitter.com/matthewswaidan">@mswaidan</a>, <a href="https://twitter.com/luisfraguada">@luis</a>, <a href="https://twitter.com/pearswj">@will</a>, the brave beta-testers at <a href="http://www.henn.com/en#design">HENN</a> &amp; that nice company that makes <a href="https://www.rhino3d.com/">Rhino</a>.</p>
+
+    </div>
+    
+    <div class="col xxx-push-2-of-12 col-10-of-12 m-un-push col-m-4-of-4 article">
+    </div>
+  </div>
+</div>
+
+<div class="grid section-block article-block">
+  <div class="row">
+    <div class="col col-12-of-12 col-m-4-of-4">
+      <h5>Having trouble? Found a bug? Have a question? Join the discussion below our join our <a href="https://slacker.speckle.works">slack channel.</a></h5> <div id='discourse-comments'></div>
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'https://discourse.speckle.works/',
+                     discourseEmbedUrl: "https://speckle.works/log/versionone/"
+                   };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
+    </div>
+  </div>
+</div>
+ <div class="footer blue">
+  <div class="grid">
+  <br>
+  <br>
+  <br>
+    <div class="row">
+      <div class='col col-9-of-12 col-m-4-of-4'>
+
+      <p class="xxsubheading">
+        Get in touch on <a href="https://slacker.speckle.works/" style='border:none'><i class='fa fa-slack'></i> Slack</a>!
+        <hr>
+      </p>
+      
+      
+      <p class="paragraph">
+          This project has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No 642877.
+      </p>
+      <br>
+      <br>
+      <br>
+      <p class="paragraph"><small>Started off by <a href="http://twitter.com/idid">Dimitrie Stefanescu</a> in 2015 while at <a href="https://www.ucl.ac.uk/bartlett/" class="href">UCL The Bartlett</a> & <a href="http://innochain.net/">InnoChain</a>. All work (c) project contributors, licensed under MIT.</small></p> 
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="col col-3-of-12 text-right">
+        <a class="logo-img" href="https://speckle.works"><img src="/img/logos/2xlogo-white.png" style="width: 75px;"> </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script async defer src="/js/scripts.js"></script>
+</body>
+</html>

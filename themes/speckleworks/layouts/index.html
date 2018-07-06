@@ -1,19 +1,13 @@
 {{ partial "header.html" . }}
-<div class="main-header" style='margin-bottom: 100px;'>
+<div class="main-header blue" style='margin-bottom: 100px;'>
   <header class="grid">
     <div class="row">
       <div class="col col-12-of-12 col-m-4-of-4 xxx-text-center">
-        <a class="logo-img" href="{{ .Site.BaseURL }}"><img src="img/logos/logo-bw.png" style="height: 100px; opacity: 0.72"> </a>
-        <h1 class="heading">
-         {{ .Site.Params.mainBlurb | safeHTML }}
-        </h1>
+        <!-- <a class="logo-img" href="{{ .Site.BaseURL }}"><img src="/img/logos/2xlogo-white.png" style="width: 75px;"> </a> -->
+        <h1 class='heading-about'>Speckle: <span class="emp">open digital infrastructure</span> for <span class="emp">designing, making and operating</span> the built environment.</h1>
         <h3 class="blurb">
           {{ .Site.Params.secondaryBlurb | safeHTML }}
         </h3>
-          <!-- {{ range .Site.Params.features }} 
-            <h3 class='heading-3'>{{.name}}</h3>
-            <p>{{.blurb}}</p>
-          {{end}}  -->
       </div>
     </div>
   </header>
@@ -72,43 +66,6 @@
     </div>
   </div>
 </div>
-<!-- <hr> -->
-<!-- <div class="grid section-block">
-  <div class="row">
-    <div class="col col-12-of-12">
-      <h2 class="heading-2">
-        <strong><a href='/doc/'>Docs</a></strong>: Assorted Knowledge
-      </h2>
-    </div>
-  </div>
-</div> -->
-<!-- <div class="grid">
-  <div class="row">
-    {{- range first 4 (where .Data.Pages.ByDate.Reverse "Section" "doc") }}
-    <div class="col col-6-of-12 col-m-4-of-4 card card-2 card-xx list-card">
-        <h3 class="">
-        {{ if or (isset .Params "featureclass")}}
-          <i class='fa fa-star' style='color: #0080FF'></i>
-        {{ end }}
-        <a href="{{ .Permalink }}">
-          {{ .Title }}
-        </a>
-      </h3>
-        <p><small>Posted on {{ .Date.Format "Mon, Jan 2, 2006" }} | {{ .ReadingTime }} min read
-        <br><i>{{ .Params.description }}</i><br><a href="{{ .Permalink }}">Read more...</a>
-        </small>
-        </p>
-    </div>
-    {{- end }}
-    <div class="col col-12-of-12 col-m-4-of-4">
-      <div class="row">
-        <div class='col col-6-of-12 col-m-4-of-4'>
-          <a href="/doc/">More docs</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
 <br>
 <hr>
 <div class="grid">
@@ -118,7 +75,7 @@
         <a href="/about">About: People, Academia & Industry</a>
       </h3>
       <p class="paragraph">
-        Speckle is growing out of research undertaken at UCL The Bartlett and InnoChain as an ecosystem of software tools that aims to enable enable a flexible data rich desigpn workflow between any stakeholders of any industry, thus allowing for a richer and more productive design environment. <a href="/about">Read more.</a>
+        Speckle is growing out of research undertaken at UCL The Bartlett and InnoChain as an ecosystem of software tools that aims to enable enable a flexible data rich design workflow between any stakeholders of any industry, thus allowing for a richer and more productive design environment. <a href="/about">Read more.</a>
       </p>
       <br>
       <br>

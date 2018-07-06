@@ -3,8 +3,10 @@
     <div class="row">
       <div class="col col-12-of-12">
         <nav class="sidebar-nav">
-          {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if ne .Name "Doc" }}
-          <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"> {{ .Pre }} {{ .Name }}</a> {{ end }} {{ end }}
+          {{ $currentPage := . }} 
+            {{ range .Site.Menus.main.Sort }} 
+                <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"> {{ .Pre }} {{ .Name }}</a> 
+            {{ end }}
         </nav>
       </div>
     </div>

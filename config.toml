@@ -11,23 +11,24 @@ pygmentsUseClassic=true
       name = "Home"
       # pre = "&nbsp<img src='/img/2xlogo@4x.png' width='25'/>"
       # pre = "&nbsp<i class='fa fa-home'></i>"
-      weight = -20
+      weight = 1
       identifier = "Speckle"
       url = "/"
   [[menu.main]]
-      name = "About"
-      # pre = "<i class='fa fa-hand-peace-o'></i>"
-      weight = 100
-      url = "/about/"
+    identifier = "log"
+    name = "Log"
+    title = "news"
+    url = "/log/"
+    weight = 20
   [[menu.main]]
       name = "Github"
       pre = "<i class='fa fa-github'></i>"
-      weight = 300
+      weight = 30000
       url = "https://github.com/speckleworks"
   [[menu.main]]
       name = "Forum"
       pre = "<i class='fa fa-comments-o'></i>"
-      weight = 230
+      weight = 35000
       url = "https://discourse.speckle.works/"
 
 
