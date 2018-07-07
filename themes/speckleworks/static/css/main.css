@@ -1,4 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+.full-width-blue {
+  position: relative; /* for the child pseudo-elements */
+  margin: 0 -30px;
+  padding: 0.25rem 30px;
+  background: #0080FF;
+}
+
+.full-width-blue:before, .full-width-blue:after {
+  content: "";
+  position: absolute;
+  /* fill vertically */
+  top: 0;
+  bottom: 0;
+  width: 9600px;
+  right: 100%;
+  /*background: green;*/
+  background: #0080FF;
+}
+.full-width-blue:after { 
+  width: 9600px;
+  left: 100%;
+}
+
+
+.left-only.full-width-blue:after {
+  display: none;
+}
+.right-only.full-width-blue:before{
+  display: none;
+}
+
+
 
 .main-nav-header {
   padding-top: 10px;
@@ -32,16 +66,21 @@ h2,
 h3,
 h4,
 h5,
-h6,
-a {
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+p, li, ul, a.sidebar-nav-item {
   font-family: 'Quicksand', sans-serif;
 }
+
 
 h3 {
   line-height: 30px;
 }
 
-body {
+html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -68,10 +107,10 @@ body {
   padding: 10px 10px !important;
   color: white !important;
 }
-
+/*
 .card * {
   color: #333333;
-}
+}*/
 
 .card .paragraph,
 .card p,
@@ -108,7 +147,7 @@ body {
 }
 
 .card-5 {
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.05);
 }
 
 .card-3:hover {
@@ -126,7 +165,7 @@ body {
 
 @media(max-width: 480px) {
   .header-img {
-    height: 100vh;
+    /*height: 100vh;*/
   }
 }
 
@@ -154,11 +193,17 @@ body {
 #toc {
   transition: all .3s ease;
   opacity: 1;
+  text-align: right;
+  padding-right: 15px;
+  box-sizing: border-box;
+  border-right: 1px solid #CCCCCC;
 }
 
 #toc.sticky {
   position: fixed;
   top: 80px;
+  text-align: right;
+  padding-right: 15px;
 }
 
 .hidden {
@@ -239,6 +284,10 @@ blockquote p {
 .blue {
   background: #0080FF;
   color: white !important;
+}
+
+.blue a, .blue li, .blue ul, .blue p {
+ color: white !important; 
 }
 
 .blue * {
@@ -393,13 +442,18 @@ strong {
   right: 0;
   font-size: 20px;
   z-index: 1000;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   color: white;
   background-color: #0080FF;
   text-align: center;
   padding-top: 20px;
   box-sizing: border-box;
+}
+
+.mobile-button img {
+  position: relative;
+  top: -3px;
 }
 
 .mobile-menu {
@@ -641,7 +695,7 @@ code {
 
 .heading-about{
   color: #0080FF;
-  /*font-size: 35px;*/
+  font-size: 35px;
   /*font-weight: normal;*/
   /*text-align: justify;*/
   line-height: 1.6;

@@ -11,8 +11,12 @@
 <!-- <hr> -->
 <div class="grid section-block">
   <div class="row">
-    {{ range .Data.Pages }}
+    {{ range .Data.Pages }} 
+    {{ if or (isset .Params "featureclass")}}
+    <div class="blue col col-6-of-12 col-m-4-of-4 card card-2 card-xx list-card">
+    {{ else }}
     <div class="col col-6-of-12 col-m-4-of-4 card card-2 card-xx list-card">
+    {{ end }}
       <h3 class="">
         {{ if or (isset .Params "featureclass")}}
           <i class='fa fa-star' style='color: #0080FF'></i>

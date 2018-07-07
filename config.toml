@@ -35,7 +35,7 @@ pygmentsUseClassic=true
 [params]
 mainBlurb = "Open Design Collaboration"
 secondaryBlurb = """
-Speckle reimagines the design process from the Internet up: an open source (MIT) initiative for developing an extensible Design & AEC data communication protocol and platform.
+We reimagine the design process from the Internet up: Speckle is an open source (MIT) initiative for developing an extensible Design & AEC data <span class='emp'>communication and collaboration platform.</span>
 """
 horizon2020 = "This project has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No 642877."
 # [params.features]

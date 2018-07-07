@@ -1,0 +1,1657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"speckl",
+				"speckleworks"
+			],
+			[
+				"githu",
+				"github.com"
+			],
+			[
+				"http",
+				"https://slacker.speckle.works"
+			],
+			[
+				"spec",
+				"speckleworks"
+			],
+			[
+				"git",
+				"github.com"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"maker",
+				"makeTerrain\tfunction"
+			],
+			[
+				"Plane",
+				"PlaneGeometry\tclass"
+			],
+			[
+				"Pro",
+				"Protagonist\tclass"
+			],
+			[
+				"Vect",
+				"Vector3\tclass"
+			],
+			[
+				"si",
+				"sizeAttenuation\tproperty"
+			],
+			[
+				"grid",
+				"gridHelper3\tconst"
+			],
+			[
+				"onmou",
+				"onmousemove\tproperty"
+			],
+			[
+				"camer",
+				"cameraHelper\tproperty"
+			],
+			[
+				"inner",
+				"innerHeight\tproperty"
+			],
+			[
+				"innerh",
+				"innerWidth\tproperty"
+			],
+			[
+				"get",
+				"getDelta\tmethod"
+			],
+			[
+				"Th",
+				"THREE\talias"
+			],
+			[
+				"posit",
+				"position\tproperty"
+			],
+			[
+				"setClear",
+				"setClearColor\tmethod"
+			],
+			[
+				"clo",
+				"Clock\tclass"
+			],
+			[
+				"M",
+				"MultiMaterial\tclass"
+			],
+			[
+				"rece",
+				"recipientId"
+			],
+			[
+				"config",
+				"configResult〔variable〕"
+			],
+			[
+				"clien",
+				"clients"
+			],
+			[
+				"client",
+				"clientId"
+			],
+			[
+				"sub",
+				"subscriber"
+			],
+			[
+				"pa",
+				"parsedMessage.eventName"
+			],
+			[
+				"parse",
+				"parsedMessage"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"print",
+				"println\tprintln!(…)"
+			],
+			[
+				"appl",
+				"applyMatrix"
+			],
+			[
+				"Revi",
+				"RevitSender"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"can",
+				"canRead"
+			],
+			[
+				"res",
+				"resources"
+			],
+			[
+				"po",
+				"populateFields"
+			],
+			[
+				"resource",
+				"resourceType"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"pop",
+				"populateFields〔argument〕"
+			],
+			[
+				"new",
+				"newobjs"
+			],
+			[
+				"saved",
+				"savedUser"
+			],
+			[
+				"comment",
+				"commentId"
+			],
+			[
+				"pr",
+				"projects"
+			],
+			[
+				"cmm",
+				"comments"
+			],
+			[
+				"top",
+				"topology〔variable〕"
+			],
+			[
+				"docu",
+				"documentLocation"
+			],
+			[
+				"acc",
+				"accounts"
+			],
+			[
+				"Stream",
+				"StreamGet"
+			],
+			[
+				"ano",
+				"annonymous"
+			],
+			[
+				"jwt",
+				"jwt_payload"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"share",
+				"sharedWithStreams"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"ws",
+				"wsSessionId"
+			],
+			[
+				"par",
+				"parsedMessage〔variable〕"
+			],
+			[
+				"cha",
+				"channel"
+			],
+			[
+				"sen",
+				"senderSessionId"
+			],
+			[
+				"redis",
+				"redisPub"
+			],
+			[
+				"red",
+				"redisPub〔variable〕"
+			],
+			[
+				"glo",
+				"global-ws"
+			],
+			[
+				"redi",
+				"redisPub〔variable〕"
+			],
+			[
+				"raw",
+				"rawBody〔variable〕"
+			],
+			[
+				"Speckl",
+				"SpeckleObject"
+			],
+			[
+				"other",
+				"otherVal"
+			],
+			[
+				"oh",
+				"otherVal"
+			],
+			[
+				"dif",
+				"differenceWith"
+			],
+			[
+				"stream",
+				"streamId"
+			],
+			[
+				"strict",
+				"strictAuth〔variable〕"
+			],
+			[
+				"obje",
+				"objects"
+			],
+			[
+				"object",
+				"objectCount"
+			],
+			[
+				"layer",
+				"layerObjects〔variable〕"
+			],
+			[
+				"relax",
+				"relaxedAuth〔variable〕"
+			],
+			[
+				"to",
+				"toUpdate"
+			],
+			[
+				"s",
+				"sObjects"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"rem",
+				"remaining"
+			],
+			[
+				"geometr",
+				"geometries"
+			],
+			[
+				"geom",
+				"geometries"
+			],
+			[
+				"objetc",
+				"objectId"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"layers",
+				"layersModified"
+			],
+			[
+				"mtach",
+				"matchingOldLayer"
+			],
+			[
+				"layersTo",
+				"layersToRemove"
+			],
+			[
+				"geome",
+				"geometryHash"
+			],
+			[
+				"shortid",
+				"shortid"
+			],
+			[
+				"Data",
+				"DataStream"
+			],
+			[
+				"st",
+				"stream"
+			],
+			[
+				"objects",
+				"objectsToUpdate"
+			],
+			[
+				"Object",
+				"ObjectHasher"
+			],
+			[
+				"is",
+				"isShared"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"Speckle",
+				"SpeckleColourPanel"
+			],
+			[
+				"Spec",
+				"SpeckleColourPanel"
+			],
+			[
+				"ob",
+				"objectProperties"
+			],
+			[
+				"sle",
+				"selectedAccount"
+			],
+			[
+				"close",
+				"closeMyself"
+			],
+			[
+				"sele",
+				"selectedStream"
+			],
+			[
+				"sel",
+				"selectedStream"
+			],
+			[
+				"exp",
+				"expandedCard"
+			],
+			[
+				"strem",
+				"streamId"
+			],
+			[
+				"selec",
+				"selectedStream"
+			],
+			[
+				"account",
+				"accountStreams"
+			],
+			[
+				"live",
+				"liveUpdate"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"three",
+				"threeMeshVertexColorsMaterial"
+			],
+			[
+				"threeMes",
+				"threeMeshVertexColorsMaterial"
+			],
+			[
+				"lay",
+				"layerGuid"
+			],
+			[
+				"thre",
+				"threeMeshMaterial"
+			],
+			[
+				"ser",
+				"serverDetails"
+			],
+			[
+				"strea",
+				"streamId"
+			],
+			[
+				"expa",
+				"expandInfoBox"
+			],
+			[
+				"up",
+				"updateInProgress"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"login",
+				"loginError"
+			],
+			[
+				"contr",
+				"controlsTarget"
+			],
+			[
+				"de",
+				"debounce"
+			],
+			[
+				"sce",
+				"sceneObj"
+			],
+			[
+				"my",
+				"myObject"
+			],
+			[
+				"ex",
+				"expandInfoBox"
+			],
+			[
+				"hovere",
+				"hoveredObjects"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "themes/speckleworks/layouts/_default/single.html",
+			"settings":
+			{
+				"buffer_size": 2079,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/speckleworks/static/css/main.css",
+			"settings":
+			{
+				"buffer_size": 10310,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.toml",
+			"settings":
+			{
+				"buffer_size": 1858,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "content/about.md",
+			"settings":
+			{
+				"buffer_size": 5282,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Automatic"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Check"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Document"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Script"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pacakin",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"prefe",
+				"Preferences: JsPrettier Settings - Default"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pacak",
+				"Package Control: Remove Package"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
+			[
+				"prettier",
+				"JsPrettier: Format Code"
+			],
+			[
+				"BOXY",
+				"Boxy Theme: Activation"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"Markdown",
+				"MarkdownEditing: Magic Footnotes Command"
+			],
+			[
+				"markd",
+				"MarkdownEditing: New Inline Link"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc"
+	],
+	"file_history":
+	[
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/public/builds/index.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/public/css/main.css",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/layouts/404.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/layouts/partials/nav-header.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/layouts/partials/footer.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/static/css/main.css",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/deploy.sh",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/layouts/index.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/content/builds.md",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/content/about.md",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/config.toml",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/layouts/_default/single.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/layouts/page/about.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/public/index.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/layouts/_default/list.html",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/public/js/builds.js",
+		"/Users/Bender/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/Bender/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/Bender/Library/Application Support/Sublime Text 3/Packages/User/HTMLPrettify.sublime-settings",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/index.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/ws/RadioTower.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/.env-base",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/.env",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/StreamGetAll.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/package.json",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/package-lock.json",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/readme.md",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/config.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/ws/SpeckleSockets.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/config/passport.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/accounts/UserLogin.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/accounts/UserCreate.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/accounts/UserCreate.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/accounts/UserLogin.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/index.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/config/main.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/middleware/PermissionCheck.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/server.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/ws/ClientStore.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/clients/ClientPost.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/accounts/UserGetStreams.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/models/UserAppClient.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/StreamGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/middleware/PrepareQuery.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/models/DataStream.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/models/User.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/Dockerfile",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/middleware/PermissionCheck.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/ws/_SpeckleEvents.js",
+		"/Users/Bender/Documents/dev/01 Archive/BetaSpeckle/spkw/src/js/modules/SPK.js",
+		"/Users/Bender/Documents/dev/01 Archive/BetaSpeckle/spkw/src/jade/Multiple.jade",
+		"/Users/Bender/Documents/dev/01 Archive/BetaSpeckle/spkw/src/jade/layout/layout.jade",
+		"/Users/Bender/Documents/dev/01 Archive/BetaSpeckle/spkw/dist/Default.html",
+		"/Users/Bender/Documents/dev/01 Archive/BetaSpeckle/spkw/src/js/modules/SPKSliderControl.js",
+		"/Users/Bender/Documents/dev/01 Archive/BetaSpeckle/spkw/src/js/Default.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleAdmin/package.json",
+		"/Volumes/[C] Windows 10 Dev.hidden/Users/Dim/Desktop/RhinoDotNetCrash.txt",
+		"/Volumes/[C] Windows 10 Dev.hidden/Users/Dim/Desktop/RhinoCrashDump - Copy.dmp",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleRhino/SpeckleView/src/components/RevitReceiver.vue",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleRhino/SpeckleView/src/components/RevitSender.vue",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleRhino/SpeckleView/src/App.vue",
+		"/Users/Bender/Library/Application Support/Sublime Text 3/Packages/User/.jsbeautifyrc",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/models/SpeckleObject.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/models/SpeckleDataTypesEnum.js",
+		"/Users/Bender/Downloads/RhinoCompute (1).cs",
+		"/Users/Bender/Documents/dev/Speckle/WebsiteSrc/themes/speckleworks/layouts/partials/header.html",
+		"/Users/Bender/Desktop/speckleemails.json",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/middleware/BulkObjectSave.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/StreamDuplicate.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/StreamPost.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/objects/ObjectGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/objects/ObjectsGetBulk.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/objects/ObjectsGetBulk.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/objects/ObjectGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/StreamObjectsGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/StreamDiff.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/objects/ObjectPost.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/StreamGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/models/Comment.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/middleware/GetResourceByType.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/clients/ClientGetAll.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/comments/CommentPost.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/accounts/UserGetStreams.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/clients/ClientGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/accounts/ClientGetAll.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/clients/ClientGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/clients/ClientCreate.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/accounts/UserSearch.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/projects/ProjectPost.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/projects/ProjectGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/projects/ProjectGetAll.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/comments/CommentGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/accounts/UserSearch.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/StreamPut.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/StreamDelete.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/streams/LayersGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/projects/ProjectPut.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/projects/ProjectDelete.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/objects/ObjectPutProperties.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/objects/ObjectPut.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/objects/ObjectDelete.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/clients/ClientDelete.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/clients/ClientPut.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/comments/CommentDelete.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/comments/CommentGetAll.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/comments/CommentGetAssigned.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/comments/CommentPut.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v1/middleware/TokenCheck.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/StreamDiff.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/StreamDuplicate.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/LayersPut.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/NameGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/NamePut.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/StreamDelete.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/StreamPatch.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/streams/StreamPut.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/middleware/TokenCheck.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/accounts/UserGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/accounts/UserGetClients.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/v0/accounts/UserUpdate.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/.gitignore",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/untitled",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/apiv1.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/apiv0.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/core/accounts/UserSearch.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/core/comments/CommentDelete.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/core/comments/CommentGet.js",
+		"/Users/Bender/Documents/dev/Speckle/SpeckleServer/app/api/core/objects/ObjectsGetBulk.js"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 149.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Quicksand",
+			"span",
+			"1",
+			"h1",
+			"xxxemp",
+			"-",
+			"emp",
+			"h1",
+			"::selection",
+			"select",
+			"strong",
+			"\n##",
+			"##"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "themes/speckleworks/layouts/_default/single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2079,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "themes/speckleworks/static/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 396.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								394,
+								394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TOML/TOML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "content/about.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 54.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.607320802048,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 174.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 314.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 48.0
+	},
+	"pinned_build_system": "Packages/Rust Enhanced/RustEnhanced.sublime-build",
+	"project": "specklewebsrc.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index",
+				"public/builds/index.html"
+			],
+			[
+				"mainc",
+				"themes/speckleworks/static/css/main.css"
+			],
+			[
+				"main",
+				"public/css/main.css"
+			],
+			[
+				"a",
+				"content/about.md"
+			],
+			[
+				"depl",
+				"deploy.sh"
+			],
+			[
+				"footer",
+				"themes/speckleworks/layouts/partials/footer.html"
+			],
+			[
+				"conf",
+				"config.toml"
+			],
+			[
+				"about",
+				"content/about.md"
+			],
+			[
+				"about.htm",
+				"themes/speckleworks/layouts/page/about.html"
+			],
+			[
+				"abut",
+				"content/about.md"
+			],
+			[
+				"builds",
+				"public/js/builds.js"
+			],
+			[
+				"buids",
+				"content/builds.md"
+			],
+			[
+				".ev",
+				".env-base"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"streamGetA",
+				"app/api/v1/streams/StreamGetAll.js"
+			],
+			[
+				"read",
+				"readme.md"
+			],
+			[
+				"env",
+				".env-base"
+			],
+			[
+				"pacak",
+				"package.json"
+			],
+			[
+				"userLo",
+				"app/api/v0/accounts/UserLogin.js"
+			],
+			[
+				"userCreate",
+				"app/api/v0/accounts/UserCreate.js"
+			],
+			[
+				"",
+				".env"
+			],
+			[
+				"CONF",
+				"config.js"
+			],
+			[
+				"INDEX.JS",
+				"app/api/v0/index.js"
+			],
+			[
+				"paca",
+				"package.json"
+			],
+			[
+				"confg",
+				"config.js"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"GetAll",
+				"app/api/v1/streams/StreamGetAll.js"
+			],
+			[
+				"getS",
+				"app/api/v0/accounts/UserGetStreams.js"
+			],
+			[
+				"UserApp",
+				"models/UserAppClient.js"
+			],
+			[
+				"ClientPost",
+				"app/api/v1/clients/ClientPost.js"
+			],
+			[
+				"Client",
+				"app/ws/ClientStore.js"
+			],
+			[
+				"prep",
+				"app/api/v1/middleware/PrepareQuery.js"
+			],
+			[
+				"perm",
+				"app/api/v0/middleware/PermissionCheck.js"
+			],
+			[
+				"StreamGet",
+				"app/api/v1/streams/StreamGet.js"
+			],
+			[
+				"Speckle",
+				"app/ws/SpeckleSockets.js"
+			],
+			[
+				"user",
+				"models/User.js"
+			],
+			[
+				"Dastrea",
+				"models/DataStream.js"
+			],
+			[
+				"events",
+				"app/ws/SpeckleEvents.js"
+			],
+			[
+				"SPKMaker",
+				"spkw/src/js/modules/SPKObjectMaker.js"
+			],
+			[
+				"key",
+				"spkw/src/js/modules/SPKMultipleKeyHandler.js"
+			],
+			[
+				"mult",
+				"spkw/src/jade/Multiple.jade"
+			],
+			[
+				"Defa",
+				"spkw/src/js/Default.js"
+			],
+			[
+				"SpkSlider",
+				"spkw/src/js/modules/SPKSliderControl.js"
+			],
+			[
+				"Spk.js",
+				"spkw/src/js/modules/SPK.js"
+			],
+			[
+				"multiple.js",
+				"spkw/src/js/Multiple.js"
+			],
+			[
+				"defa",
+				"spkw/dist/Default.html"
+			],
+			[
+				"car",
+				"Cargo.toml"
+			],
+			[
+				"render",
+				"src/components/SpeckleRenderer.vue"
+			],
+			[
+				"converter",
+				"src/converter/converter.js"
+			],
+			[
+				"ClientStore",
+				"app/ws/ClientStore.js"
+			],
+			[
+				"ra",
+				"app/ws/RadioTower.js"
+			],
+			[
+				"Revit",
+				"src/components/RevitSender.vue"
+			],
+			[
+				"store",
+				"src/store/store.js"
+			],
+			[
+				"SpeckleTyp",
+				"models/SpeckleDataTypesEnum.js"
+			],
+			[
+				"speckle",
+				"models/SpeckleObject.js"
+			],
+			[
+				"Project",
+				"models/Project.js"
+			],
+			[
+				"nav",
+				"themes/speckleworks/layouts/partials/nav-header.html"
+			],
+			[
+				"header",
+				"themes/speckleworks/layouts/partials/header.html"
+			],
+			[
+				"single",
+				"themes/speckleworks/layouts/_default/single.html"
+			],
+			[
+				"dup",
+				"app/api/v1/streams/StreamDuplicate.js"
+			],
+			[
+				"bulk",
+				"app/api/v1/middleware/BulkObjectSave.js"
+			],
+			[
+				"streamput",
+				"app/api/v1/streams/StreamPut.js"
+			],
+			[
+				"prepe",
+				"app/api/v1/middleware/PrepareQuery.js"
+			],
+			[
+				"clientpo",
+				"app/api/v1/clients/ClientPost.js"
+			],
+			[
+				"userstream",
+				"app/api/v0/accounts/UserGetStreams.js"
+			],
+			[
+				"streamgeta",
+				"app/api/v1/streams/StreamGetAll.js"
+			],
+			[
+				"objectget",
+				"app/api/v1/objects/ObjectsGetBulk.js"
+			],
+			[
+				"object",
+				"app/api/v1/objects/ObjectPost.js"
+			],
+			[
+				"streamdf",
+				"app/api/v1/streams/StreamDiff.js"
+			],
+			[
+				"streamget",
+				"app/api/v1/streams/StreamGet.js"
+			],
+			[
+				"streampos",
+				"app/api/v1/streams/StreamPost.js"
+			],
+			[
+				"speckl",
+				"models/SpeckleObject.js"
+			],
+			[
+				"getr",
+				"app/api/v1/middleware/GetResourceByType.js"
+			],
+			[
+				"commentpo",
+				"app/api/v1/comments/CommentPost.js"
+			],
+			[
+				"clientget",
+				"app/api/v1/clients/ClientGet.js"
+			],
+			[
+				"client",
+				"app/api/v0/clients/ClientCreate.js"
+			],
+			[
+				"project",
+				"app/api/v1/projects/ProjectPost.js"
+			],
+			[
+				"comme",
+				"models/Comment.js"
+			],
+			[
+				"use",
+				"models/User.js"
+			],
+			[
+				"streamd",
+				"app/api/v1/streams/StreamDuplicate.js"
+			],
+			[
+				"streamp",
+				"app/api/v1/streams/StreamPut.js"
+			],
+			[
+				"get",
+				"app/api/v1/middleware/GetResourceByType.js"
+			],
+			[
+				"data",
+				"models/DataStream.js"
+			],
+			[
+				"usersear",
+				"app/api/v0/accounts/UserSearch.js"
+			],
+			[
+				"commentp",
+				"app/api/v1/comments/CommentPost.js"
+			],
+			[
+				"token",
+				"app/api/v0/middleware/TokenCheck.js"
+			],
+			[
+				"commentde",
+				"app/api/core/comments/CommentDelete.js"
+			],
+			[
+				"getres",
+				"app/api/middleware/GetResourceByType.js"
+			],
+			[
+				"acak",
+				"package.json"
+			],
+			[
+				"permis",
+				"app/api/middleware/PermissionCheck.js"
+			],
+			[
+				"objectp",
+				"app/api/core/objects/ObjectPost.js"
+			],
+			[
+				"clientup",
+				"app/api/core/clients/ClientPut.js"
+			],
+			[
+				"userre",
+				"app/api/core/accounts/UserCreate.js"
+			],
+			[
+				"userlog",
+				"app/api/core/accounts/UserLogin.js"
+			],
+			[
+				"usercreate",
+				"app/api/core/accounts/UserCreate.js"
+			],
+			[
+				"userpro",
+				"app/api/core/accounts/UserProfile.js"
+			],
+			[
+				"pro",
+				"models/Project.js"
+			],
+			[
+				"post",
+				"app/api/core/comments/CommentPost.js"
+			],
+			[
+				"commentob",
+				"app/api/core/comments/CommentObjectPost.js"
+			],
+			[
+				"commentstream",
+				"app/api/core/comments/CommentStreamGet.js"
+			],
+			[
+				"commentstrea",
+				"app/api/core/comments/CommentStreamPost.js"
+			],
+			[
+				"objectsget",
+				"app/api/core/objects/ObjectsGetBulk.js"
+			],
+			[
+				"dasta",
+				"models/DataStream.js"
+			],
+			[
+				"streamde",
+				"app/api/core/streams/StreamDelete.js"
+			],
+			[
+				"comment",
+				"app/api/core/comments/CommentObjectGet.js"
+			],
+			[
+				"roo",
+				"app/api/root.js"
+			],
+			[
+				"cleintp",
+				"app/api/core/clients/ClientPost.js"
+			],
+			[
+				"comm",
+				"models/Comment.js"
+			],
+			[
+				"commentstre",
+				"app/api/core/comments/CommentStreamPost.js"
+			],
+			[
+				"erm",
+				"app/api/middleware/PermissionCheck.js"
+			],
+			[
+				"streamdu",
+				"app/api/core/streams/StreamDuplicate.js"
+			],
+			[
+				"streamsget",
+				"app/api/core/streams/StreamGet.js"
+			],
+			[
+				"streampost",
+				"app/api/core/streams/StreamPost.js"
+			],
+			[
+				"userpu",
+				"app/api/core/accounts/UserPut.js"
+			],
+			[
+				"stream",
+				"app/api/core/streams/StreamPut.js"
+			],
+			[
+				"pass",
+				"config/passport.js"
+			],
+			[
+				"streampa",
+				"app/api/core/streams/StreamPatch.js"
+			],
+			[
+				"usera",
+				"models/UserAppClient.js"
+			],
+			[
+				"specke",
+				"models/SpeckleObject.js"
+			],
+			[
+				"objectpos",
+				"app/api/core/objects/ObjectPostBulk.js"
+			],
+			[
+				"clientp",
+				"app/api/core/clients/ClientPatch.js"
+			],
+			[
+				"strea",
+				"app/api/core/streams/StreamPatch.js"
+			],
+			[
+				"postb",
+				"app/api/core/objects/ObjectPostBulk.js"
+			],
+			[
+				"objectpo",
+				"app/api/core/objects/ObjectPost.js"
+			],
+			[
+				"spec",
+				"models/SpeckleObject.js"
+			],
+			[
+				"cle",
+				"models/UserAppClient.js"
+			],
+			[
+				"clientcreate",
+				"app/api/core/clients/ClientCreate.js"
+			],
+			[
+				"protect",
+				"app/api/middleware/ProtectedFields.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 199.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

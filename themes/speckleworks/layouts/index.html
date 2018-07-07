@@ -1,40 +1,64 @@
 {{ partial "header.html" . }}
-<div class="main-header blue" style='margin-bottom: 100px;'>
+<div class="main-header blue" style='xxx-margin-bottom: 100px;'>
   <header class="grid">
     <div class="row">
       <div class="col col-12-of-12 col-m-4-of-4 xxx-text-center">
         <!-- <a class="logo-img" href="{{ .Site.BaseURL }}"><img src="/img/logos/2xlogo-white.png" style="width: 75px;"> </a> -->
         <h1 class='heading-about'>Speckle: <span class="emp">open digital infrastructure</span> for <span class="emp">designing, making and operating</span> the built environment.</h1>
-        <h3 class="blurb">
+        <p class="xxx-blurb">
           {{ .Site.Params.secondaryBlurb | safeHTML }}
-        </h3>
+        </p>
+        <!-- <h5><span class="empxxx"><a href='/about'>ABOUT <i class="fa fa-arrow-right"></i></a></span></h5> -->
       </div>
     </div>
   </header>
 </div>
-<!-- <div class="blue-bg">
+<div class="blue-bg" style="padding-bottom: 100px;">
   <div class="grid section-block">
     <div class="row">
-      <div class="col col-12-of-12 col-m-8-of-8 card card-3 text-center" style="padding-bottom: 70px;">
-        <h2 class="subheading text-center">
-          <i class='fa fa-terminal' style='color:#585858'></i>
-          <br>
-          <br>
-          For Developers
+      <div class="col col-12-of-12 col-m-8-of-8 card card-3 xxx-text-center" style="padding-bottom: 70px;">
+        <h2 class="subheading xxx-text-center">
+          Getting started
         </h2>
-        <p>
-          1. Grab the code from <strong><a href='https://github.com/speckleworks'>SpeckleWorks</a>.</strong>
-        </p>
-        <p>
-          2. Read the <strong><a href='https://speckleworks.github.io/SpeckleOpenApi/'>Api Docs</a></strong>.
-        </p>
-        <p>
-          3. Start hacking & <strong><a href='https://slacker.speckle.works'>slacking</a>!</strong>
-        </p>
+        <div class="row">
+          <div class="col col-6-of-12 col-m-8-of-8">
+            <h3>For developers:</h3>
+            <p>
+              <strong>Want to spin up a server? </strong><em><a href='https://github.com/speckleworks/speckleserver'>It's not that hard.</a></em>
+            </p>
+            <p>
+              <strong>Frontend dev work?</strong> <em><a href='https://speckleworks.github.io/SpeckleSpecs/'>OpenApi docs are here!</a></em>
+            </p>
+            <p>
+              <strong>Developing for .NET?</strong> We've got a <em><a href='https://github.com/speckleworks/SpeckleCore/'>SDK</a></em>.
+            </p>
+            <p>
+              <small><em>Check out example implementations in <a href='https://github.com/speckleworks'>Rhino/Gh, Dynamo, Blender, Unity, THREE Js and Vue JS.</a></em></small>
+              <!-- Start hacking & <em><a href='https://slacker.speckle.works'>slacking</a>!</em> -->
+            </p>
+          </div>
+          <div class="col col-6-of-12 col-m-8-of-8">
+            <h3>Ready to use:</h3>
+            <p>
+              <strong>Rhino/Grasshopper user? </strong><em>Check out how to get started <a href='/log/specklerhinoplugin'>with the plugins.</a></em>
+            </p>
+            <p>
+              <strong>Dynamo user? </strong><em>We have a WIP version on <a href='https://dynamopackages.com/'>the package manager</a>, and some <a href='https://github.com/speckleworks/SpeckleDynamo/blob/master/README.md'>docs</a>.</em>
+            </p>
+            <p>
+              <small>More to come, when ready™️</small>
+            </p>
+          </div>
+        </div>
+
+        <br>
+        <h2 class="xxx-subheading xxx-text-center">
+          PS: You're not alone. Join the <a href='https://discourse.speckle.works'><i class='fa fa-comment' style="color: #0080FF !important;"></i> forum</a> or <a href='https://slacker.speckle.works'><i class='fa fa-slack' style="color: #0080FF !important;"></i> slack</a>!
+        </h2>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 <div class="grid section-block">
   <div class="row">
     <div class="col col-12-of-12">
@@ -42,7 +66,7 @@
         <strong><a href='/log/'>Log</a></strong>: Latest news and gossip on Speckle.
       </h2>
     </div>
-    {{- range first 10 ( where .Data.Pages.ByDate.Reverse "Section" "log") }}
+    {{- range first 6 ( where .Data.Pages.ByDate.Reverse "Section" "log") }}
     <div class="col col-6-of-12 col-m-4-of-4">
       <h4 class="">
         {{ if or (isset .Params "featureclass")}}
@@ -52,8 +76,8 @@
           {{ .Title }}
         </a>
       </h4>
-      <small>Posted on {{ .Date.Format "Mon, Jan 2, 2006" }}</small>
       <p>
+        <small>Posted on {{ .Date.Format "Mon, Jan 2, 2006" }}</small><br>
         <i><small>{{ .Params.description }}</small></i>
       </p>
     </div>
@@ -61,7 +85,7 @@
     <div class="col col-6-of-12 col-m-4-of-4">
       <p class="">
         <br>
-        <a href="/log/">More news</a>
+        <a href="/log/">More log entries</a>
       </p>
     </div>
   </div>
@@ -72,7 +96,7 @@
   <div class="row">
     <div class="col col-12-of-12">
       <h3 class="heading-2">
-        <a href="/about">About: People, Academia & Industry</a>
+        <a href="/about"><strong>About</strong></a>: People, Academia & Industry
       </h3>
       <p class="paragraph">
         Speckle is growing out of research undertaken at UCL The Bartlett and InnoChain as an ecosystem of software tools that aims to enable enable a flexible data rich design workflow between any stakeholders of any industry, thus allowing for a richer and more productive design environment. <a href="/about">Read more.</a>

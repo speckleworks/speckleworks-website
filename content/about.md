@@ -7,28 +7,34 @@ menu = "main"
 weight = 10
 +++
 
-<h1 class='heading-about' style="">
-    
-    <span class="emp">Speckle is open digital infrastructure for designing, making and operating the built environment collaboratively.</span>
-
-</h1>
 
 Speckle started  out as research in **digital design collaboration**. What become evident was that there was no truly open digital infrastructure for design data sharing that people could actually use, or build on top of without getting locked in proprietary solutions. Therefore, this is what we've set up to build, from the internet up: <strong>a truly open, vendor-neutral platform that connects Architecture, Engineering and Construction.</strong>
-<!-- 
-<h3 class='heading-about blue' style="xxxtext-align: right;">
-    We are <span class="emp">open source.</span> Open <span class="emp">people</span> and <span class="emp">MIT licensed code</span>.
-</h3>
- -->
 
-The Speckle Ecosystem is developed in the open by like minded people, on [github](https://github.com/speckleworks). We are a welcoming community and do our best to help others join the effort. So far, all the code is released under the <strong>MIT License</strong>.
-
+<div class='full-width-blue blue right-only card-5'>
 <h1 class='heading-about' style="">
-    <span class="emp">Get in touch:</span> <i class='fa fa-envelope'></i> <a href='mailto:hello@speckle.works'>mail</a> / <a href='https://slacker.speckle.works'><i class='fa fa-slack' style="color: #0080FF !important;"></i> slack</a> / <i class="fa fa-twitter"></i> <a href='https://twitter.com/speckle_works'>twitter</a></span>
+    <br>
+    Speckle is <span class="emp">open digital infrastructure for <strong>collaboratively</strong> designing, making and operating the built environment.</span>
+    <br>
+    &nbsp
 </h1>
+</div>
+
+<br>
+
+It's an ambitious goal. The Speckle Ecosystem is developed in the open by like minded people, on [github](https://github.com/speckleworks). We are a welcoming community and do our best to help others join the effort. So far, all the code is released under the <strong>MIT License</strong>.
+
+<br>
+
+<div class='full-width-blue blue left-only card-5'>
+<h1 class='heading-about' style="">
+    <span class="xxx-emp">Get in touch:</span> <i class='fa fa-envelope'></i> <a href='mailto:hello@speckle.works'>mail</a> / <a href='https://slacker.speckle.works'><i class='fa fa-slack' style="color: white !important;"></i> slack</a> / <i class="fa fa-twitter"></i> <a href='https://twitter.com/speckle_works'>twitter</a></span>
+</h1>
+</div>
 
 <br>
 <br>
 <hr>
+
 
 ## Core Features
 
