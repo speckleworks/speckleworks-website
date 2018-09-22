@@ -5,7 +5,7 @@ title = "Data streaming between Grasshopper and Dynamo"
 showtoc = "true"
 comments = "true"
 featureclass = "featured-post"
-
+headerimg = "img/guide/guide.png"
 author = "Matteo Cominetti"
 twitter = "teocomi"
 +++
