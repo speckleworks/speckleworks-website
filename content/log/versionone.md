@@ -5,7 +5,6 @@ title = "Speckle 1.0.0"
 showtoc = "true"
 comments = "true"
 headerimg = "img/versionone/speckle_versionone.png"
-featureclass = "featured-post"
 author = "Dimitrie Stefanescu"
 twitter = "idid"
 +++
