@@ -1,5 +1,5 @@
 +++
-description = "Bringing data from Rhino, Grasshopper, or Dynamo live into Augmented Reality via Unity & Hololens."
+description = "So you want to stream data between Grasshopper and Dynamo? This guide will get you started!"
 date = "2018-09-22T13:08:41+01:00"
 title = "Data streaming between Grasshopper and Dynamo"
 showtoc = "true"
