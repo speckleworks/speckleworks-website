@@ -8,6 +8,8 @@ menu = "main"
 weight = 100
 +++
 
+### Looking for the plugin installer? Look no more, it's ➡️ [here](https://github.com/speckleworks/SpeckleInstaller/releases/latest). It bundles the Rhino, Grasshopper and Dynamo packages.
+
 Below are the latest plugin builds. They are autmatically pulled from our CI runs. To download, click on the artifact link.
 
 ### [SpeckleRhino](https://github.com/speckleworks/SpeckleRhino)

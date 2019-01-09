@@ -16,37 +16,9 @@ So you want to stream data between Grasshopper and Dynamo? This guide will get y
 - Rhino 6 + Grasshopper
 - Dynamo 2.0
 
-### Grasshopper
-Speckle for Grasshopper is distributed together with Speckle for Rhino, in a single installer. 
+Download the [latest installer](https://github.com/speckleworks/SpeckleInstaller/releases/latest). This installer bundles together all the stable application plugins, namely Rhino, Grasshopper and Dynamo. It does not require admin privileges, so double click with confidence!
 
-- Download the installer from [here](https://ci.appveyor.com/api/projects/SpeckleWorks/SpeckleRhino/artifacts/specklerhino.rhi?branch=master&job=Configuration%3DRelease).
-- Close Rhino&Grasshopper
-- Run the installer
-- Open Rhino&Grasshopper
-
-![1537456434532](/img/guide/1537456434532.png)
-
-⚠️ Make sure that, when double clicking the installer, it is opened by the *Rhino Package Installer*, and not by an older version of Rhino like *Rhinoceros 5*.
-
-You now have both Speckle for Rhino and **Speckle for Grasshopper** installed.
-
-![1537456901566](/img/guide/1537456901566.png)
-
-### Dynamo
-
-Speckle for Dynamo is distributed via the Dynamo package manager.
-
-- Fire up Dynamo
-- Click on *Packages > Search for a Package...*
-- Search for "speckle" and click *Install* (search might be <u>very slow</u> from time to time!)
-
-![1537457135278](/img/guide/1537457135278.png)
-
-You now have **Speckle for Dynamo** installed.
-
-![1537457187824](/img/guide/1537457187824.png)
-
-
+Please note: if you have previously installed speckle for rhino via the .rhi for "all users", you will need to uninstall it manually first by deleting the rhino plugin from its installation folder. You can find the installation folder in Rhino's Plugin Options dialog.
 
 ## Account creation
 
